@@ -1,0 +1,1422 @@
+ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m3
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"cymetadata.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.global	cy_metadata
+  20              		.global	cy_meta_flashprotect
+  21              		.global	cy_meta_wonvl
+  22              		.global	cy_meta_custnvl
+  23              		.global	cy_meta_configecc
+  24              		.section	.cyconfigecc,"a",%progbits
+  25              		.align	2
+  26              		.type	cy_meta_configecc, %object
+  27              		.size	cy_meta_configecc, 888
+  28              	cy_meta_configecc:
+  29 0000 02       		.byte	2
+  30 0001 52       		.byte	82
+  31 0002 00       		.byte	0
+  32 0003 40       		.byte	64
+  33 0004 03       		.byte	3
+  34 0005 65       		.byte	101
+  35 0006 00       		.byte	0
+  36 0007 40       		.byte	64
+  37 0008 6A       		.byte	106
+  38 0009 14       		.byte	20
+  39 000a 01       		.byte	1
+  40 000b 40       		.byte	64
+  41 000c 4A       		.byte	74
+  42 000d 15       		.byte	21
+  43 000e 01       		.byte	1
+  44 000f 40       		.byte	64
+  45 0010 14       		.byte	20
+  46 0011 16       		.byte	22
+  47 0012 01       		.byte	1
+  48 0013 40       		.byte	64
+  49 0014 43       		.byte	67
+  50 0015 17       		.byte	23
+  51 0016 01       		.byte	1
+  52 0017 40       		.byte	64
+  53 0018 01       		.byte	1
+  54 0019 19       		.byte	25
+  55 001a 01       		.byte	1
+  56 001b 40       		.byte	64
+  57 001c 03       		.byte	3
+ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 2
+
+
+  58 001d 1B       		.byte	27
+  59 001e 01       		.byte	1
+  60 001f 40       		.byte	64
+  61 0020 02       		.byte	2
+  62 0021 40       		.byte	64
+  63 0022 01       		.byte	1
+  64 0023 40       		.byte	64
+  65 0024 01       		.byte	1
+  66 0025 41       		.byte	65
+  67 0026 01       		.byte	1
+  68 0027 40       		.byte	64
+  69 0028 03       		.byte	3
+  70 0029 42       		.byte	66
+  71 002a 01       		.byte	1
+  72 002b 40       		.byte	64
+  73 002c 02       		.byte	2
+  74 002d 43       		.byte	67
+  75 002e 01       		.byte	1
+  76 002f 40       		.byte	64
+  77 0030 06       		.byte	6
+  78 0031 48       		.byte	72
+  79 0032 01       		.byte	1
+  80 0033 40       		.byte	64
+  81 0034 16       		.byte	22
+  82 0035 49       		.byte	73
+  83 0036 01       		.byte	1
+  84 0037 40       		.byte	64
+  85 0038 08       		.byte	8
+  86 0039 4C       		.byte	76
+  87 003a 01       		.byte	1
+  88 003b 40       		.byte	64
+  89 003c 06       		.byte	6
+  90 003d 4D       		.byte	77
+  91 003e 01       		.byte	1
+  92 003f 40       		.byte	64
+  93 0040 02       		.byte	2
+  94 0041 50       		.byte	80
+  95 0042 01       		.byte	1
+  96 0043 40       		.byte	64
+  97 0044 02       		.byte	2
+  98 0045 51       		.byte	81
+  99 0046 01       		.byte	1
+ 100 0047 40       		.byte	64
+ 101 0048 1C       		.byte	28
+ 102 0049 01       		.byte	1
+ 103 004a 60       		.byte	96
+ 104 004b 02       		.byte	2
+ 105 004c 84       		.byte	-124
+ 106 004d 0F       		.byte	15
+ 107 004e 86       		.byte	-122
+ 108 004f 38       		.byte	56
+ 109 0050 87       		.byte	-121
+ 110 0051 72       		.byte	114
+ 111 0052 01       		.byte	1
+ 112 0053 08       		.byte	8
+ 113 0054 02       		.byte	2
+ 114 0055 08       		.byte	8
+ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 3
+
+
+ 115 0056 03       		.byte	3
+ 116 0057 34       		.byte	52
+ 117 0058 04       		.byte	4
+ 118 0059 13       		.byte	19
+ 119 005a 05       		.byte	5
+ 120 005b 18       		.byte	24
+ 121 005c 06       		.byte	6
+ 122 005d 04       		.byte	4
+ 123 005e 08       		.byte	8
+ 124 005f 20       		.byte	32
+ 125 0060 09       		.byte	9
+ 126 0061 18       		.byte	24
+ 127 0062 0A       		.byte	10
+ 128 0063 C0       		.byte	-64
+ 129 0064 0C       		.byte	12
+ 130 0065 40       		.byte	64
+ 131 0066 0E       		.byte	14
+ 132 0067 20       		.byte	32
+ 133 0068 10       		.byte	16
+ 134 0069 13       		.byte	19
+ 135 006a 12       		.byte	18
+ 136 006b 0C       		.byte	12
+ 137 006c 14       		.byte	20
+ 138 006d 0A       		.byte	10
+ 139 006e 15       		.byte	21
+ 140 006f 10       		.byte	16
+ 141 0070 16       		.byte	22
+ 142 0071 14       		.byte	20
+ 143 0072 17       		.byte	23
+ 144 0073 0C       		.byte	12
+ 145 0074 18       		.byte	24
+ 146 0075 80       		.byte	-128
+ 147 0076 1A       		.byte	26
+ 148 0077 20       		.byte	32
+ 149 0078 22       		.byte	34
+ 150 0079 15       		.byte	21
+ 151 007a 24       		.byte	36
+ 152 007b E0       		.byte	-32
+ 153 007c 25       		.byte	37
+ 154 007d 01       		.byte	1
+ 155 007e 28       		.byte	40
+ 156 007f E0       		.byte	-32
+ 157 0080 2B       		.byte	43
+ 158 0081 02       		.byte	2
+ 159 0082 2C       		.byte	44
+ 160 0083 03       		.byte	3
+ 161 0084 2E       		.byte	46
+ 162 0085 14       		.byte	20
+ 163 0086 30       		.byte	48
+ 164 0087 10       		.byte	16
+ 165 0088 31       		.byte	49
+ 166 0089 01       		.byte	1
+ 167 008a 32       		.byte	50
+ 168 008b 0F       		.byte	15
+ 169 008c 33       		.byte	51
+ 170 008d 18       		.byte	24
+ 171 008e 34       		.byte	52
+ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 4
+
+
+ 172 008f E0       		.byte	-32
+ 173 0090 35       		.byte	53
+ 174 0091 20       		.byte	32
+ 175 0092 37       		.byte	55
+ 176 0093 06       		.byte	6
+ 177 0094 3A       		.byte	58
+ 178 0095 08       		.byte	8
+ 179 0096 3E       		.byte	62
+ 180 0097 01       		.byte	1
+ 181 0098 3F       		.byte	63
+ 182 0099 41       		.byte	65
+ 183 009a 40       		.byte	64
+ 184 009b 31       		.byte	49
+ 185 009c 41       		.byte	65
+ 186 009d 02       		.byte	2
+ 187 009e 46       		.byte	70
+ 188 009f BE       		.byte	-66
+ 189 00a0 47       		.byte	71
+ 190 00a1 C0       		.byte	-64
+ 191 00a2 48       		.byte	72
+ 192 00a3 2C       		.byte	44
+ 193 00a4 49       		.byte	73
+ 194 00a5 FF       		.byte	-1
+ 195 00a6 4A       		.byte	74
+ 196 00a7 FF       		.byte	-1
+ 197 00a8 4B       		.byte	75
+ 198 00a9 FF       		.byte	-1
+ 199 00aa 4E       		.byte	78
+ 200 00ab F0       		.byte	-16
+ 201 00ac 4F       		.byte	79
+ 202 00ad 44       		.byte	68
+ 203 00ae 50       		.byte	80
+ 204 00af 0C       		.byte	12
+ 205 00b0 54       		.byte	84
+ 206 00b1 01       		.byte	1
+ 207 00b2 58       		.byte	88
+ 208 00b3 04       		.byte	4
+ 209 00b4 59       		.byte	89
+ 210 00b5 04       		.byte	4
+ 211 00b6 5A       		.byte	90
+ 212 00b7 04       		.byte	4
+ 213 00b8 5B       		.byte	91
+ 214 00b9 04       		.byte	4
+ 215 00ba 5F       		.byte	95
+ 216 00bb 01       		.byte	1
+ 217 00bc 66       		.byte	102
+ 218 00bd C0       		.byte	-64
+ 219 00be 6A       		.byte	106
+ 220 00bf 40       		.byte	64
+ 221 00c0 6B       		.byte	107
+ 222 00c1 02       		.byte	2
+ 223 00c2 81       		.byte	-127
+ 224 00c3 80       		.byte	-128
+ 225 00c4 83       		.byte	-125
+ 226 00c5 13       		.byte	19
+ 227 00c6 84       		.byte	-124
+ 228 00c7 0C       		.byte	12
+ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 5
+
+
+ 229 00c8 86       		.byte	-122
+ 230 00c9 71       		.byte	113
+ 231 00ca 87       		.byte	-121
+ 232 00cb 08       		.byte	8
+ 233 00cc 88       		.byte	-120
+ 234 00cd 10       		.byte	16
+ 235 00ce 8A       		.byte	-118
+ 236 00cf 40       		.byte	64
+ 237 00d0 93       		.byte	-109
+ 238 00d1 0C       		.byte	12
+ 239 00d2 95       		.byte	-107
+ 240 00d3 2C       		.byte	44
+ 241 00d4 96       		.byte	-106
+ 242 00d5 03       		.byte	3
+ 243 00d6 97       		.byte	-105
+ 244 00d7 43       		.byte	67
+ 245 00d8 9E       		.byte	-98
+ 246 00d9 20       		.byte	32
+ 247 00da A0       		.byte	-96
+ 248 00db 09       		.byte	9
+ 249 00dc A2       		.byte	-94
+ 250 00dd D0       		.byte	-48
+ 251 00de A4       		.byte	-92
+ 252 00df DC       		.byte	-36
+ 253 00e0 A5       		.byte	-91
+ 254 00e1 71       		.byte	113
+ 255 00e2 A6       		.byte	-90
+ 256 00e3 22       		.byte	34
+ 257 00e4 A7       		.byte	-89
+ 258 00e5 0E       		.byte	14
+ 259 00e6 A8       		.byte	-88
+ 260 00e7 14       		.byte	20
+ 261 00e8 A9       		.byte	-87
+ 262 00e9 71       		.byte	113
+ 263 00ea AB       		.byte	-85
+ 264 00eb 06       		.byte	6
+ 265 00ec AC       		.byte	-84
+ 266 00ed 10       		.byte	16
+ 267 00ee AE       		.byte	-82
+ 268 00ef AC       		.byte	-84
+ 269 00f0 B2       		.byte	-78
+ 270 00f1 1F       		.byte	31
+ 271 00f2 B3       		.byte	-77
+ 272 00f3 30       		.byte	48
+ 273 00f4 B4       		.byte	-76
+ 274 00f5 E0       		.byte	-32
+ 275 00f6 B5       		.byte	-75
+ 276 00f7 0F       		.byte	15
+ 277 00f8 B7       		.byte	-73
+ 278 00f9 C0       		.byte	-64
+ 279 00fa B9       		.byte	-71
+ 280 00fb 88       		.byte	-120
+ 281 00fc BA       		.byte	-70
+ 282 00fd 20       		.byte	32
+ 283 00fe BB       		.byte	-69
+ 284 00ff 20       		.byte	32
+ 285 0100 BF       		.byte	-65
+ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 6
+
+
+ 286 0101 04       		.byte	4
+ 287 0102 C0       		.byte	-64
+ 288 0103 02       		.byte	2
+ 289 0104 C7       		.byte	-57
+ 290 0105 04       		.byte	4
+ 291 0106 C9       		.byte	-55
+ 292 0107 FF       		.byte	-1
+ 293 0108 CA       		.byte	-54
+ 294 0109 07       		.byte	7
+ 295 010a CB       		.byte	-53
+ 296 010b FF       		.byte	-1
+ 297 010c CC       		.byte	-52
+ 298 010d 40       		.byte	64
+ 299 010e CD       		.byte	-51
+ 300 010f 20       		.byte	32
+ 301 0110 CE       		.byte	-50
+ 302 0111 F0       		.byte	-16
+ 303 0112 CF       		.byte	-49
+ 304 0113 05       		.byte	5
+ 305 0114 D0       		.byte	-48
+ 306 0115 08       		.byte	8
+ 307 0116 D8       		.byte	-40
+ 308 0117 04       		.byte	4
+ 309 0118 D9       		.byte	-39
+ 310 0119 04       		.byte	4
+ 311 011a DA       		.byte	-38
+ 312 011b 04       		.byte	4
+ 313 011c DF       		.byte	-33
+ 314 011d 01       		.byte	1
+ 315 011e E0       		.byte	-32
+ 316 011f 40       		.byte	64
+ 317 0120 E1       		.byte	-31
+ 318 0121 A8       		.byte	-88
+ 319 0122 E2       		.byte	-30
+ 320 0123 40       		.byte	64
+ 321 0124 E3       		.byte	-29
+ 322 0125 20       		.byte	32
+ 323 0126 01       		.byte	1
+ 324 0127 20       		.byte	32
+ 325 0128 02       		.byte	2
+ 326 0129 81       		.byte	-127
+ 327 012a 03       		.byte	3
+ 328 012b 20       		.byte	32
+ 329 012c 04       		.byte	4
+ 330 012d 04       		.byte	4
+ 331 012e 06       		.byte	6
+ 332 012f 08       		.byte	8
+ 333 0130 08       		.byte	8
+ 334 0131 06       		.byte	6
+ 335 0132 0A       		.byte	10
+ 336 0133 08       		.byte	8
+ 337 0134 0E       		.byte	14
+ 338 0135 10       		.byte	16
+ 339 0136 0F       		.byte	15
+ 340 0137 02       		.byte	2
+ 341 0138 10       		.byte	16
+ 342 0139 82       		.byte	-126
+ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 7
+
+
+ 343 013a 11       		.byte	17
+ 344 013b 14       		.byte	20
+ 345 013c 14       		.byte	20
+ 346 013d 02       		.byte	2
+ 347 013e 15       		.byte	21
+ 348 013f 20       		.byte	32
+ 349 0140 17       		.byte	23
+ 350 0141 09       		.byte	9
+ 351 0142 19       		.byte	25
+ 352 0143 20       		.byte	32
+ 353 0144 1A       		.byte	26
+ 354 0145 40       		.byte	64
+ 355 0146 1B       		.byte	27
+ 356 0147 18       		.byte	24
+ 357 0148 1C       		.byte	28
+ 358 0149 04       		.byte	4
+ 359 014a 1D       		.byte	29
+ 360 014b 04       		.byte	4
+ 361 014c 1E       		.byte	30
+ 362 014d 10       		.byte	16
+ 363 014e 1F       		.byte	31
+ 364 014f 20       		.byte	32
+ 365 0150 20       		.byte	32
+ 366 0151 01       		.byte	1
+ 367 0152 21       		.byte	33
+ 368 0153 08       		.byte	8
+ 369 0154 22       		.byte	34
+ 370 0155 14       		.byte	20
+ 371 0156 23       		.byte	35
+ 372 0157 40       		.byte	64
+ 373 0158 26       		.byte	38
+ 374 0159 80       		.byte	-128
+ 375 015a 27       		.byte	39
+ 376 015b 19       		.byte	25
+ 377 015c 29       		.byte	41
+ 378 015d 24       		.byte	36
+ 379 015e 2F       		.byte	47
+ 380 015f 28       		.byte	40
+ 381 0160 31       		.byte	49
+ 382 0161 08       		.byte	8
+ 383 0162 34       		.byte	52
+ 384 0163 04       		.byte	4
+ 385 0164 37       		.byte	55
+ 386 0165 09       		.byte	9
+ 387 0166 39       		.byte	57
+ 388 0167 14       		.byte	20
+ 389 0168 3A       		.byte	58
+ 390 0169 01       		.byte	1
+ 391 016a 3E       		.byte	62
+ 392 016b 09       		.byte	9
+ 393 016c 3F       		.byte	63
+ 394 016d 02       		.byte	2
+ 395 016e 42       		.byte	66
+ 396 016f 01       		.byte	1
+ 397 0170 43       		.byte	67
+ 398 0171 28       		.byte	40
+ 399 0172 47       		.byte	71
+ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 8
+
+
+ 400 0173 10       		.byte	16
+ 401 0174 4C       		.byte	76
+ 402 0175 80       		.byte	-128
+ 403 0176 4F       		.byte	79
+ 404 0177 02       		.byte	2
+ 405 0178 50       		.byte	80
+ 406 0179 02       		.byte	2
+ 407 017a 51       		.byte	81
+ 408 017b 10       		.byte	16
+ 409 017c 52       		.byte	82
+ 410 017d 40       		.byte	64
+ 411 017e 53       		.byte	83
+ 412 017f 01       		.byte	1
+ 413 0180 56       		.byte	86
+ 414 0181 08       		.byte	8
+ 415 0182 58       		.byte	88
+ 416 0183 01       		.byte	1
+ 417 0184 59       		.byte	89
+ 418 0185 10       		.byte	16
+ 419 0186 5A       		.byte	90
+ 420 0187 44       		.byte	68
+ 421 0188 64       		.byte	100
+ 422 0189 01       		.byte	1
+ 423 018a 66       		.byte	102
+ 424 018b 40       		.byte	64
+ 425 018c 82       		.byte	-126
+ 426 018d 01       		.byte	1
+ 427 018e 8B       		.byte	-117
+ 428 018f 40       		.byte	64
+ 429 0190 8C       		.byte	-116
+ 430 0191 02       		.byte	2
+ 431 0192 8D       		.byte	-115
+ 432 0193 10       		.byte	16
+ 433 0194 8F       		.byte	-113
+ 434 0195 09       		.byte	9
+ 435 0196 91       		.byte	-111
+ 436 0197 14       		.byte	20
+ 437 0198 92       		.byte	-110
+ 438 0199 04       		.byte	4
+ 439 019a 94       		.byte	-108
+ 440 019b 01       		.byte	1
+ 441 019c 96       		.byte	-106
+ 442 019d 28       		.byte	40
+ 443 019e 9E       		.byte	-98
+ 444 019f 41       		.byte	65
+ 445 01a0 A7       		.byte	-89
+ 446 01a1 10       		.byte	16
+ 447 01a2 C0       		.byte	-64
+ 448 01a3 6F       		.byte	111
+ 449 01a4 C2       		.byte	-62
+ 450 01a5 AE       		.byte	-82
+ 451 01a6 C4       		.byte	-60
+ 452 01a7 FF       		.byte	-1
+ 453 01a8 CA       		.byte	-54
+ 454 01a9 66       		.byte	102
+ 455 01aa CC       		.byte	-52
+ 456 01ab C2       		.byte	-62
+ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 9
+
+
+ 457 01ac CE       		.byte	-50
+ 458 01ad C7       		.byte	-57
+ 459 01ae D0       		.byte	-48
+ 460 01af 2E       		.byte	46
+ 461 01b0 D6       		.byte	-42
+ 462 01b1 0F       		.byte	15
+ 463 01b2 E0       		.byte	-32
+ 464 01b3 08       		.byte	8
+ 465 01b4 E2       		.byte	-30
+ 466 01b5 20       		.byte	32
+ 467 01b6 E8       		.byte	-24
+ 468 01b7 20       		.byte	32
+ 469 01b8 EA       		.byte	-22
+ 470 01b9 09       		.byte	9
+ 471 01ba 00       		.byte	0
+ 472 01bb 04       		.byte	4
+ 473 01bc 03       		.byte	3
+ 474 01bd 01       		.byte	1
+ 475 01be 0C       		.byte	12
+ 476 01bf 01       		.byte	1
+ 477 01c0 12       		.byte	18
+ 478 01c1 02       		.byte	2
+ 479 01c2 1A       		.byte	26
+ 480 01c3 02       		.byte	2
+ 481 01c4 23       		.byte	35
+ 482 01c5 01       		.byte	1
+ 483 01c6 24       		.byte	36
+ 484 01c7 01       		.byte	1
+ 485 01c8 28       		.byte	40
+ 486 01c9 01       		.byte	1
+ 487 01ca 32       		.byte	50
+ 488 01cb 02       		.byte	2
+ 489 01cc 33       		.byte	51
+ 490 01cd 01       		.byte	1
+ 491 01ce 34       		.byte	52
+ 492 01cf 04       		.byte	4
+ 493 01d0 36       		.byte	54
+ 494 01d1 01       		.byte	1
+ 495 01d2 3E       		.byte	62
+ 496 01d3 14       		.byte	20
+ 497 01d4 3F       		.byte	63
+ 498 01d5 04       		.byte	4
+ 499 01d6 54       		.byte	84
+ 500 01d7 18       		.byte	24
+ 501 01d8 56       		.byte	86
+ 502 01d9 04       		.byte	4
+ 503 01da 58       		.byte	88
+ 504 01db 04       		.byte	4
+ 505 01dc 59       		.byte	89
+ 506 01dd 04       		.byte	4
+ 507 01de 5B       		.byte	91
+ 508 01df 04       		.byte	4
+ 509 01e0 5F       		.byte	95
+ 510 01e1 01       		.byte	1
+ 511 01e2 00       		.byte	0
+ 512 01e3 24       		.byte	36
+ 513 01e4 02       		.byte	2
+ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 10
+
+
+ 514 01e5 01       		.byte	1
+ 515 01e6 06       		.byte	6
+ 516 01e7 40       		.byte	64
+ 517 01e8 07       		.byte	7
+ 518 01e9 01       		.byte	1
+ 519 01ea 08       		.byte	8
+ 520 01eb 14       		.byte	20
+ 521 01ec 09       		.byte	9
+ 522 01ed 80       		.byte	-128
+ 523 01ee 0A       		.byte	10
+ 524 01ef 40       		.byte	64
+ 525 01f0 0D       		.byte	13
+ 526 01f1 01       		.byte	1
+ 527 01f2 0F       		.byte	15
+ 528 01f3 04       		.byte	4
+ 529 01f4 10       		.byte	16
+ 530 01f5 A0       		.byte	-96
+ 531 01f6 12       		.byte	18
+ 532 01f7 02       		.byte	2
+ 533 01f8 13       		.byte	19
+ 534 01f9 20       		.byte	32
+ 535 01fa 17       		.byte	23
+ 536 01fb 18       		.byte	24
+ 537 01fc 18       		.byte	24
+ 538 01fd 04       		.byte	4
+ 539 01fe 1A       		.byte	26
+ 540 01ff 50       		.byte	80
+ 541 0200 1B       		.byte	27
+ 542 0201 81       		.byte	-127
+ 543 0202 1D       		.byte	29
+ 544 0203 84       		.byte	-124
+ 545 0204 1E       		.byte	30
+ 546 0205 06       		.byte	6
+ 547 0206 20       		.byte	32
+ 548 0207 28       		.byte	40
+ 549 0208 21       		.byte	33
+ 550 0209 04       		.byte	4
+ 551 020a 22       		.byte	34
+ 552 020b 02       		.byte	2
+ 553 020c 23       		.byte	35
+ 554 020d 46       		.byte	70
+ 555 020e 25       		.byte	37
+ 556 020f 04       		.byte	4
+ 557 0210 28       		.byte	40
+ 558 0211 10       		.byte	16
+ 559 0212 2A       		.byte	42
+ 560 0213 21       		.byte	33
+ 561 0214 2B       		.byte	43
+ 562 0215 11       		.byte	17
+ 563 0216 2F       		.byte	47
+ 564 0217 80       		.byte	-128
+ 565 0218 30       		.byte	48
+ 566 0219 06       		.byte	6
+ 567 021a 31       		.byte	49
+ 568 021b 80       		.byte	-128
+ 569 021c 32       		.byte	50
+ 570 021d 14       		.byte	20
+ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 11
+
+
+ 571 021e 38       		.byte	56
+ 572 021f 24       		.byte	36
+ 573 0220 3A       		.byte	58
+ 574 0221 02       		.byte	2
+ 575 0222 3B       		.byte	59
+ 576 0223 40       		.byte	64
+ 577 0224 3F       		.byte	63
+ 578 0225 01       		.byte	1
+ 579 0226 40       		.byte	64
+ 580 0227 05       		.byte	5
+ 581 0228 41       		.byte	65
+ 582 0229 04       		.byte	4
+ 583 022a 45       		.byte	69
+ 584 022b 04       		.byte	4
+ 585 022c 46       		.byte	70
+ 586 022d 10       		.byte	16
+ 587 022e 48       		.byte	72
+ 588 022f 04       		.byte	4
+ 589 0230 4A       		.byte	74
+ 590 0231 01       		.byte	1
+ 591 0232 4B       		.byte	75
+ 592 0233 01       		.byte	1
+ 593 0234 51       		.byte	81
+ 594 0235 01       		.byte	1
+ 595 0236 5A       		.byte	90
+ 596 0237 10       		.byte	16
+ 597 0238 5F       		.byte	95
+ 598 0239 02       		.byte	2
+ 599 023a 64       		.byte	100
+ 600 023b 02       		.byte	2
+ 601 023c 65       		.byte	101
+ 602 023d 02       		.byte	2
+ 603 023e 66       		.byte	102
+ 604 023f 10       		.byte	16
+ 605 0240 69       		.byte	105
+ 606 0241 14       		.byte	20
+ 607 0242 6B       		.byte	107
+ 608 0243 19       		.byte	25
+ 609 0244 70       		.byte	112
+ 610 0245 B0       		.byte	-80
+ 611 0246 72       		.byte	114
+ 612 0247 22       		.byte	34
+ 613 0248 73       		.byte	115
+ 614 0249 20       		.byte	32
+ 615 024a 80       		.byte	-128
+ 616 024b 02       		.byte	2
+ 617 024c 81       		.byte	-127
+ 618 024d 04       		.byte	4
+ 619 024e 85       		.byte	-123
+ 620 024f 02       		.byte	2
+ 621 0250 88       		.byte	-120
+ 622 0251 12       		.byte	18
+ 623 0252 C0       		.byte	-64
+ 624 0253 97       		.byte	-105
+ 625 0254 C2       		.byte	-62
+ 626 0255 5F       		.byte	95
+ 627 0256 C4       		.byte	-60
+ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 12
+
+
+ 628 0257 6F       		.byte	111
+ 629 0258 CA       		.byte	-54
+ 630 0259 8F       		.byte	-113
+ 631 025a CC       		.byte	-52
+ 632 025b 0F       		.byte	15
+ 633 025c CE       		.byte	-50
+ 634 025d 8F       		.byte	-113
+ 635 025e D0       		.byte	-48
+ 636 025f 0E       		.byte	14
+ 637 0260 D2       		.byte	-46
+ 638 0261 0C       		.byte	12
+ 639 0262 D6       		.byte	-42
+ 640 0263 84       		.byte	-124
+ 641 0264 D8       		.byte	-40
+ 642 0265 B0       		.byte	-80
+ 643 0266 E2       		.byte	-30
+ 644 0267 01       		.byte	1
+ 645 0268 E2       		.byte	-30
+ 646 0269 01       		.byte	1
+ 647 026a E0       		.byte	-32
+ 648 026b 08       		.byte	8
+ 649 026c E8       		.byte	-24
+ 650 026d 20       		.byte	32
+ 651 026e EA       		.byte	-22
+ 652 026f 09       		.byte	9
+ 653 0270 33       		.byte	51
+ 654 0271 80       		.byte	-128
+ 655 0272 CC       		.byte	-52
+ 656 0273 10       		.byte	16
+ 657 0274 A7       		.byte	-89
+ 658 0275 80       		.byte	-128
+ 659 0276 3E       		.byte	62
+ 660 0277 10       		.byte	16
+ 661 0278 A7       		.byte	-89
+ 662 0279 80       		.byte	-128
+ 663 027a CE       		.byte	-50
+ 664 027b 20       		.byte	32
+ 665 027c 96       		.byte	-106
+ 666 027d 10       		.byte	16
+ 667 027e A7       		.byte	-89
+ 668 027f 80       		.byte	-128
+ 669 0280 80       		.byte	-128
+ 670 0281 08       		.byte	8
+ 671 0282 87       		.byte	-121
+ 672 0283 80       		.byte	-128
+ 673 0284 96       		.byte	-106
+ 674 0285 10       		.byte	16
+ 675 0286 A7       		.byte	-89
+ 676 0287 80       		.byte	-128
+ 677 0288 E2       		.byte	-30
+ 678 0289 80       		.byte	-128
+ 679 028a E6       		.byte	-26
+ 680 028b 10       		.byte	16
+ 681 028c 03       		.byte	3
+ 682 028d 10       		.byte	16
+ 683 028e 13       		.byte	19
+ 684 028f 02       		.byte	2
+ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 13
+
+
+ 685 0290 16       		.byte	22
+ 686 0291 40       		.byte	64
+ 687 0292 53       		.byte	83
+ 688 0293 10       		.byte	16
+ 689 0294 70       		.byte	112
+ 690 0295 08       		.byte	8
+ 691 0296 7F       		.byte	127
+ 692 0297 02       		.byte	2
+ 693 0298 83       		.byte	-125
+ 694 0299 10       		.byte	16
+ 695 029a 86       		.byte	-122
+ 696 029b 40       		.byte	64
+ 697 029c 8B       		.byte	-117
+ 698 029d 10       		.byte	16
+ 699 029e 9F       		.byte	-97
+ 700 029f 02       		.byte	2
+ 701 02a0 A0       		.byte	-96
+ 702 02a1 08       		.byte	8
+ 703 02a2 A3       		.byte	-93
+ 704 02a3 02       		.byte	2
+ 705 02a4 AA       		.byte	-86
+ 706 02a5 10       		.byte	16
+ 707 02a6 AF       		.byte	-81
+ 708 02a7 02       		.byte	2
+ 709 02a8 B3       		.byte	-77
+ 710 02a9 02       		.byte	2
+ 711 02aa C0       		.byte	-64
+ 712 02ab 10       		.byte	16
+ 713 02ac C4       		.byte	-60
+ 714 02ad 30       		.byte	48
+ 715 02ae D4       		.byte	-44
+ 716 02af 20       		.byte	32
+ 717 02b0 DC       		.byte	-36
+ 718 02b1 80       		.byte	-128
+ 719 02b2 DE       		.byte	-34
+ 720 02b3 20       		.byte	32
+ 721 02b4 E0       		.byte	-32
+ 722 02b5 30       		.byte	48
+ 723 02b6 EA       		.byte	-22
+ 724 02b7 90       		.byte	-112
+ 725 02b8 10       		.byte	16
+ 726 02b9 20       		.byte	32
+ 727 02ba 13       		.byte	19
+ 728 02bb 20       		.byte	32
+ 729 02bc 17       		.byte	23
+ 730 02bd 08       		.byte	8
+ 731 02be 78       		.byte	120
+ 732 02bf 10       		.byte	16
+ 733 02c0 7F       		.byte	127
+ 734 02c1 40       		.byte	64
+ 735 02c2 80       		.byte	-128
+ 736 02c3 20       		.byte	32
+ 737 02c4 C4       		.byte	-60
+ 738 02c5 0E       		.byte	14
+ 739 02c6 DE       		.byte	-34
+ 740 02c7 03       		.byte	3
+ 741 02c8 87       		.byte	-121
+ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 14
+
+
+ 742 02c9 40       		.byte	64
+ 743 02ca 97       		.byte	-105
+ 744 02cb 80       		.byte	-128
+ 745 02cc AB       		.byte	-85
+ 746 02cd 20       		.byte	32
+ 747 02ce AF       		.byte	-81
+ 748 02cf 08       		.byte	8
+ 749 02d0 B0       		.byte	-80
+ 750 02d1 10       		.byte	16
+ 751 02d2 E8       		.byte	-24
+ 752 02d3 04       		.byte	4
+ 753 02d4 10       		.byte	16
+ 754 02d5 01       		.byte	1
+ 755 02d6 1A       		.byte	26
+ 756 02d7 01       		.byte	1
+ 757 02d8 00       		.byte	0
+ 758 02d9 03       		.byte	3
+ 759 02da 03       		.byte	3
+ 760 02db C0       		.byte	-64
+ 761 02dc 00       		.byte	0
+ 762 02dd 10       		.byte	16
+ 763 02de 00       		.byte	0
+ 764 02df 00       		.byte	0
+ 765 02e0 73       		.byte	115
+ 766 02e1 E7       		.byte	-25
+ 767 02e2 0C       		.byte	12
+ 768 02e3 18       		.byte	24
+ 769 02e4 7F       		.byte	127
+ 770 02e5 08       		.byte	8
+ 771 02e6 00       		.byte	0
+ 772 02e7 00       		.byte	0
+ 773 02e8 01       		.byte	1
+ 774 02e9 3C       		.byte	60
+ 775 02ea 00       		.byte	0
+ 776 02eb C2       		.byte	-62
+ 777 02ec 1F       		.byte	31
+ 778 02ed FF       		.byte	-1
+ 779 02ee 60       		.byte	96
+ 780 02ef 00       		.byte	0
+ 781 02f0 02       		.byte	2
+ 782 02f1 80       		.byte	-128
+ 783 02f2 00       		.byte	0
+ 784 02f3 00       		.byte	0
+ 785 02f4 03       		.byte	3
+ 786 02f5 00       		.byte	0
+ 787 02f6 00       		.byte	0
+ 788 02f7 04       		.byte	4
+ 789 02f8 00       		.byte	0
+ 790 02f9 00       		.byte	0
+ 791 02fa 23       		.byte	35
+ 792 02fb E3       		.byte	-29
+ 793 02fc 08       		.byte	8
+ 794 02fd 44       		.byte	68
+ 795 02fe 00       		.byte	0
+ 796 02ff 00       		.byte	0
+ 797 0300 04       		.byte	4
+ 798 0301 C0       		.byte	-64
+ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 15
+
+
+ 799 0302 00       		.byte	0
+ 800 0303 00       		.byte	0
+ 801 0304 0C       		.byte	12
+ 802 0305 18       		.byte	24
+ 803 0306 00       		.byte	0
+ 804 0307 00       		.byte	0
+ 805 0308 1C       		.byte	28
+ 806 0309 1C       		.byte	28
+ 807 030a 63       		.byte	99
+ 808 030b E1       		.byte	-31
+ 809 030c 2C       		.byte	44
+ 810 030d 1F       		.byte	31
+ 811 030e 10       		.byte	16
+ 812 030f 00       		.byte	0
+ 813 0310 0F       		.byte	15
+ 814 0311 38       		.byte	56
+ 815 0312 40       		.byte	64
+ 816 0313 C0       		.byte	-64
+ 817 0314 80       		.byte	-128
+ 818 0315 00       		.byte	0
+ 819 0316 22       		.byte	34
+ 820 0317 0A       		.byte	10
+ 821 0318 00       		.byte	0
+ 822 0319 00       		.byte	0
+ 823 031a 04       		.byte	4
+ 824 031b 00       		.byte	0
+ 825 031c 25       		.byte	37
+ 826 031d 03       		.byte	3
+ 827 031e 06       		.byte	6
+ 828 031f 00       		.byte	0
+ 829 0320 01       		.byte	1
+ 830 0321 E0       		.byte	-32
+ 831 0322 00       		.byte	0
+ 832 0323 C0       		.byte	-64
+ 833 0324 22       		.byte	34
+ 834 0325 FF       		.byte	-1
+ 835 0326 FF       		.byte	-1
+ 836 0327 FF       		.byte	-1
+ 837 0328 62       		.byte	98
+ 838 0329 A0       		.byte	-96
+ 839 032a F0       		.byte	-16
+ 840 032b 41       		.byte	65
+ 841 032c 0C       		.byte	12
+ 842 032d 00       		.byte	0
+ 843 032e 00       		.byte	0
+ 844 032f 00       		.byte	0
+ 845 0330 00       		.byte	0
+ 846 0331 00       		.byte	0
+ 847 0332 02       		.byte	2
+ 848 0333 11       		.byte	17
+ 849 0334 04       		.byte	4
+ 850 0335 04       		.byte	4
+ 851 0336 04       		.byte	4
+ 852 0337 04       		.byte	4
+ 853 0338 00       		.byte	0
+ 854 0339 00       		.byte	0
+ 855 033a 00       		.byte	0
+ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 16
+
+
+ 856 033b 01       		.byte	1
+ 857 033c 00       		.byte	0
+ 858 033d 00       		.byte	0
+ 859 033e 00       		.byte	0
+ 860 033f 00       		.byte	0
+ 861 0340 00       		.byte	0
+ 862 0341 00       		.byte	0
+ 863 0342 40       		.byte	64
+ 864 0343 02       		.byte	2
+ 865 0344 00       		.byte	0
+ 866 0345 10       		.byte	16
+ 867 0346 30       		.byte	48
+ 868 0347 10       		.byte	16
+ 869 0348 00       		.byte	0
+ 870 0349 10       		.byte	16
+ 871 034a 10       		.byte	16
+ 872 034b 12       		.byte	18
+ 873 034c 00       		.byte	0
+ 874 034d 00       		.byte	0
+ 875 034e 00       		.byte	0
+ 876 034f 00       		.byte	0
+ 877 0350 00       		.byte	0
+ 878 0351 00       		.byte	0
+ 879 0352 00       		.byte	0
+ 880 0353 00       		.byte	0
+ 881 0354 00       		.byte	0
+ 882 0355 00       		.byte	0
+ 883 0356 00       		.byte	0
+ 884 0357 00       		.byte	0
+ 885 0358 00       		.byte	0
+ 886 0359 00       		.byte	0
+ 887 035a 00       		.byte	0
+ 888 035b 00       		.byte	0
+ 889 035c 00       		.byte	0
+ 890 035d 00       		.byte	0
+ 891 035e 03       		.byte	3
+ 892 035f 00       		.byte	0
+ 893 0360 03       		.byte	3
+ 894 0361 00       		.byte	0
+ 895 0362 00       		.byte	0
+ 896 0363 00       		.byte	0
+ 897 0364 00       		.byte	0
+ 898 0365 0B       		.byte	11
+ 899 0366 0B       		.byte	11
+ 900 0367 00       		.byte	0
+ 901 0368 00       		.byte	0
+ 902 0369 00       		.byte	0
+ 903 036a 00       		.byte	0
+ 904 036b 00       		.byte	0
+ 905 036c 02       		.byte	2
+ 906 036d 00       		.byte	0
+ 907 036e 01       		.byte	1
+ 908 036f 02       		.byte	2
+ 909 0370 02       		.byte	2
+ 910 0371 00       		.byte	0
+ 911 0372 02       		.byte	2
+ 912 0373 00       		.byte	0
+ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 17
+
+
+ 913 0374 00       		.byte	0
+ 914 0375 00       		.byte	0
+ 915 0376 00       		.byte	0
+ 916 0377 00       		.byte	0
+ 917              		.section	.cywolatch,"a",%progbits
+ 918              		.align	2
+ 919              		.type	cy_meta_wonvl, %object
+ 920              		.size	cy_meta_wonvl, 4
+ 921              	cy_meta_wonvl:
+ 922 0000 BC       		.byte	-68
+ 923 0001 90       		.byte	-112
+ 924 0002 AC       		.byte	-84
+ 925 0003 AF       		.byte	-81
+ 926              		.section	.cycustnvl,"a",%progbits
+ 927              		.align	2
+ 928              		.type	cy_meta_custnvl, %object
+ 929              		.size	cy_meta_custnvl, 4
+ 930              	cy_meta_custnvl:
+ 931 0000 00       		.byte	0
+ 932 0001 00       		.byte	0
+ 933 0002 40       		.byte	64
+ 934 0003 05       		.byte	5
+ 935              		.section	.cymeta,"a",%progbits
+ 936              		.align	2
+ 937              		.type	cy_metadata, %object
+ 938              		.size	cy_metadata, 12
+ 939              	cy_metadata:
+ 940 0000 00       		.byte	0
+ 941 0001 01       		.byte	1
+ 942 0002 2E       		.byte	46
+ 943 0003 16       		.byte	22
+ 944 0004 10       		.byte	16
+ 945 0005 69       		.byte	105
+ 946 0006 00       		.byte	0
+ 947 0007 01       		.byte	1
+ 948 0008 00       		.byte	0
+ 949 0009 00       		.byte	0
+ 950 000a 00       		.byte	0
+ 951 000b 00       		.byte	0
+ 952              		.section	.cyflashprotect,"a",%progbits
+ 953              		.align	2
+ 954              		.type	cy_meta_flashprotect, %object
+ 955              		.size	cy_meta_flashprotect, 256
+ 956              	cy_meta_flashprotect:
+ 957 0000 00000000 		.space	256
+ 957      00000000 
+ 957      00000000 
+ 957      00000000 
+ 957      00000000 
+ 958              		.text
+ 959              	.Letext0:
+ 960              		.file 1 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
+ 961              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
+ 962              		.file 3 "Generated_Source\\PSoC5\\cymetadata.c"
+ 963              		.section	.debug_info,"",%progbits
+ 964              	.Ldebug_info0:
+ 965 0000 31010000 		.4byte	0x131
+ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 18
+
+
+ 966 0004 0400     		.2byte	0x4
+ 967 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 968 000a 04       		.byte	0x4
+ 969 000b 01       		.uleb128 0x1
+ 970 000c 24000000 		.4byte	.LASF17
+ 971 0010 0C       		.byte	0xc
+ 972 0011 D0010000 		.4byte	.LASF18
+ 973 0015 5F010000 		.4byte	.LASF19
+ 974 0019 00000000 		.4byte	.Ldebug_line0
+ 975 001d 02       		.uleb128 0x2
+ 976 001e 01       		.byte	0x1
+ 977 001f 06       		.byte	0x6
+ 978 0020 C4010000 		.4byte	.LASF0
+ 979 0024 03       		.uleb128 0x3
+ 980 0025 00000000 		.4byte	.LASF9
+ 981 0029 01       		.byte	0x1
+ 982 002a 1D       		.byte	0x1d
+ 983 002b 2F000000 		.4byte	0x2f
+ 984 002f 02       		.uleb128 0x2
+ 985 0030 01       		.byte	0x1
+ 986 0031 08       		.byte	0x8
+ 987 0032 16000000 		.4byte	.LASF1
+ 988 0036 02       		.uleb128 0x2
+ 989 0037 02       		.byte	0x2
+ 990 0038 05       		.byte	0x5
+ 991 0039 B1010000 		.4byte	.LASF2
+ 992 003d 02       		.uleb128 0x2
+ 993 003e 02       		.byte	0x2
+ 994 003f 07       		.byte	0x7
+ 995 0040 C4000000 		.4byte	.LASF3
+ 996 0044 02       		.uleb128 0x2
+ 997 0045 04       		.byte	0x4
+ 998 0046 05       		.byte	0x5
+ 999 0047 BB010000 		.4byte	.LASF4
+ 1000 004b 02       		.uleb128 0x2
+ 1001 004c 04       		.byte	0x4
+ 1002 004d 07       		.byte	0x7
+ 1003 004e B2000000 		.4byte	.LASF5
+ 1004 0052 02       		.uleb128 0x2
+ 1005 0053 08       		.byte	0x8
+ 1006 0054 05       		.byte	0x5
+ 1007 0055 51010000 		.4byte	.LASF6
+ 1008 0059 02       		.uleb128 0x2
+ 1009 005a 08       		.byte	0x8
+ 1010 005b 07       		.byte	0x7
+ 1011 005c 06010000 		.4byte	.LASF7
+ 1012 0060 04       		.uleb128 0x4
+ 1013 0061 04       		.byte	0x4
+ 1014 0062 05       		.byte	0x5
+ 1015 0063 696E7400 		.ascii	"int\000"
+ 1016 0067 02       		.uleb128 0x2
+ 1017 0068 04       		.byte	0x4
+ 1018 0069 07       		.byte	0x7
+ 1019 006a F9000000 		.4byte	.LASF8
+ 1020 006e 03       		.uleb128 0x3
+ 1021 006f 1D010000 		.4byte	.LASF10
+ 1022 0073 02       		.byte	0x2
+ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 19
+
+
+ 1023 0074 18       		.byte	0x18
+ 1024 0075 24000000 		.4byte	0x24
+ 1025 0079 05       		.uleb128 0x5
+ 1026 007a 91000000 		.4byte	0x91
+ 1027 007e 8A000000 		.4byte	0x8a
+ 1028 0082 06       		.uleb128 0x6
+ 1029 0083 8A000000 		.4byte	0x8a
+ 1030 0087 7703     		.2byte	0x377
+ 1031 0089 00       		.byte	0
+ 1032 008a 02       		.uleb128 0x2
+ 1033 008b 04       		.byte	0x4
+ 1034 008c 07       		.byte	0x7
+ 1035 008d 48010000 		.4byte	.LASF11
+ 1036 0091 07       		.uleb128 0x7
+ 1037 0092 6E000000 		.4byte	0x6e
+ 1038 0096 08       		.uleb128 0x8
+ 1039 0097 E7000000 		.4byte	.LASF12
+ 1040 009b 03       		.byte	0x3
+ 1041 009c 1F       		.byte	0x1f
+ 1042 009d A7000000 		.4byte	0xa7
+ 1043 00a1 05       		.uleb128 0x5
+ 1044 00a2 03       		.byte	0x3
+ 1045 00a3 00000000 		.4byte	cy_meta_configecc
+ 1046 00a7 07       		.uleb128 0x7
+ 1047 00a8 79000000 		.4byte	0x79
+ 1048 00ac 05       		.uleb128 0x5
+ 1049 00ad 91000000 		.4byte	0x91
+ 1050 00b1 BC000000 		.4byte	0xbc
+ 1051 00b5 09       		.uleb128 0x9
+ 1052 00b6 8A000000 		.4byte	0x8a
+ 1053 00ba 03       		.byte	0x3
+ 1054 00bb 00       		.byte	0
+ 1055 00bc 08       		.uleb128 0x8
+ 1056 00bd D7000000 		.4byte	.LASF13
+ 1057 00c1 03       		.byte	0x3
+ 1058 00c2 9B       		.byte	0x9b
+ 1059 00c3 CD000000 		.4byte	0xcd
+ 1060 00c7 05       		.uleb128 0x5
+ 1061 00c8 03       		.byte	0x3
+ 1062 00c9 00000000 		.4byte	cy_meta_custnvl
+ 1063 00cd 07       		.uleb128 0x7
+ 1064 00ce AC000000 		.4byte	0xac
+ 1065 00d2 08       		.uleb128 0x8
+ 1066 00d3 3A010000 		.4byte	.LASF14
+ 1067 00d7 03       		.byte	0x3
+ 1068 00d8 A9       		.byte	0xa9
+ 1069 00d9 E3000000 		.4byte	0xe3
+ 1070 00dd 05       		.uleb128 0x5
+ 1071 00de 03       		.byte	0x3
+ 1072 00df 00000000 		.4byte	cy_meta_wonvl
+ 1073 00e3 07       		.uleb128 0x7
+ 1074 00e4 AC000000 		.4byte	0xac
+ 1075 00e8 05       		.uleb128 0x5
+ 1076 00e9 91000000 		.4byte	0x91
+ 1077 00ed F8000000 		.4byte	0xf8
+ 1078 00f1 09       		.uleb128 0x9
+ 1079 00f2 8A000000 		.4byte	0x8a
+ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 20
+
+
+ 1080 00f6 FF       		.byte	0xff
+ 1081 00f7 00       		.byte	0
+ 1082 00f8 08       		.uleb128 0x8
+ 1083 00f9 25010000 		.4byte	.LASF15
+ 1084 00fd 03       		.byte	0x3
+ 1085 00fe B7       		.byte	0xb7
+ 1086 00ff 09010000 		.4byte	0x109
+ 1087 0103 05       		.uleb128 0x5
+ 1088 0104 03       		.byte	0x3
+ 1089 0105 00000000 		.4byte	cy_meta_flashprotect
+ 1090 0109 07       		.uleb128 0x7
+ 1091 010a E8000000 		.4byte	0xe8
+ 1092 010e 05       		.uleb128 0x5
+ 1093 010f 91000000 		.4byte	0x91
+ 1094 0113 1E010000 		.4byte	0x11e
+ 1095 0117 09       		.uleb128 0x9
+ 1096 0118 8A000000 		.4byte	0x8a
+ 1097 011c 0B       		.byte	0xb
+ 1098 011d 00       		.byte	0
+ 1099 011e 08       		.uleb128 0x8
+ 1100 011f 0A000000 		.4byte	.LASF16
+ 1101 0123 03       		.byte	0x3
+ 1102 0124 E4       		.byte	0xe4
+ 1103 0125 2F010000 		.4byte	0x12f
+ 1104 0129 05       		.uleb128 0x5
+ 1105 012a 03       		.byte	0x3
+ 1106 012b 00000000 		.4byte	cy_metadata
+ 1107 012f 07       		.uleb128 0x7
+ 1108 0130 0E010000 		.4byte	0x10e
+ 1109 0134 00       		.byte	0
+ 1110              		.section	.debug_abbrev,"",%progbits
+ 1111              	.Ldebug_abbrev0:
+ 1112 0000 01       		.uleb128 0x1
+ 1113 0001 11       		.uleb128 0x11
+ 1114 0002 01       		.byte	0x1
+ 1115 0003 25       		.uleb128 0x25
+ 1116 0004 0E       		.uleb128 0xe
+ 1117 0005 13       		.uleb128 0x13
+ 1118 0006 0B       		.uleb128 0xb
+ 1119 0007 03       		.uleb128 0x3
+ 1120 0008 0E       		.uleb128 0xe
+ 1121 0009 1B       		.uleb128 0x1b
+ 1122 000a 0E       		.uleb128 0xe
+ 1123 000b 10       		.uleb128 0x10
+ 1124 000c 17       		.uleb128 0x17
+ 1125 000d 00       		.byte	0
+ 1126 000e 00       		.byte	0
+ 1127 000f 02       		.uleb128 0x2
+ 1128 0010 24       		.uleb128 0x24
+ 1129 0011 00       		.byte	0
+ 1130 0012 0B       		.uleb128 0xb
+ 1131 0013 0B       		.uleb128 0xb
+ 1132 0014 3E       		.uleb128 0x3e
+ 1133 0015 0B       		.uleb128 0xb
+ 1134 0016 03       		.uleb128 0x3
+ 1135 0017 0E       		.uleb128 0xe
+ 1136 0018 00       		.byte	0
+ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 21
+
+
+ 1137 0019 00       		.byte	0
+ 1138 001a 03       		.uleb128 0x3
+ 1139 001b 16       		.uleb128 0x16
+ 1140 001c 00       		.byte	0
+ 1141 001d 03       		.uleb128 0x3
+ 1142 001e 0E       		.uleb128 0xe
+ 1143 001f 3A       		.uleb128 0x3a
+ 1144 0020 0B       		.uleb128 0xb
+ 1145 0021 3B       		.uleb128 0x3b
+ 1146 0022 0B       		.uleb128 0xb
+ 1147 0023 49       		.uleb128 0x49
+ 1148 0024 13       		.uleb128 0x13
+ 1149 0025 00       		.byte	0
+ 1150 0026 00       		.byte	0
+ 1151 0027 04       		.uleb128 0x4
+ 1152 0028 24       		.uleb128 0x24
+ 1153 0029 00       		.byte	0
+ 1154 002a 0B       		.uleb128 0xb
+ 1155 002b 0B       		.uleb128 0xb
+ 1156 002c 3E       		.uleb128 0x3e
+ 1157 002d 0B       		.uleb128 0xb
+ 1158 002e 03       		.uleb128 0x3
+ 1159 002f 08       		.uleb128 0x8
+ 1160 0030 00       		.byte	0
+ 1161 0031 00       		.byte	0
+ 1162 0032 05       		.uleb128 0x5
+ 1163 0033 01       		.uleb128 0x1
+ 1164 0034 01       		.byte	0x1
+ 1165 0035 49       		.uleb128 0x49
+ 1166 0036 13       		.uleb128 0x13
+ 1167 0037 01       		.uleb128 0x1
+ 1168 0038 13       		.uleb128 0x13
+ 1169 0039 00       		.byte	0
+ 1170 003a 00       		.byte	0
+ 1171 003b 06       		.uleb128 0x6
+ 1172 003c 21       		.uleb128 0x21
+ 1173 003d 00       		.byte	0
+ 1174 003e 49       		.uleb128 0x49
+ 1175 003f 13       		.uleb128 0x13
+ 1176 0040 2F       		.uleb128 0x2f
+ 1177 0041 05       		.uleb128 0x5
+ 1178 0042 00       		.byte	0
+ 1179 0043 00       		.byte	0
+ 1180 0044 07       		.uleb128 0x7
+ 1181 0045 26       		.uleb128 0x26
+ 1182 0046 00       		.byte	0
+ 1183 0047 49       		.uleb128 0x49
+ 1184 0048 13       		.uleb128 0x13
+ 1185 0049 00       		.byte	0
+ 1186 004a 00       		.byte	0
+ 1187 004b 08       		.uleb128 0x8
+ 1188 004c 34       		.uleb128 0x34
+ 1189 004d 00       		.byte	0
+ 1190 004e 03       		.uleb128 0x3
+ 1191 004f 0E       		.uleb128 0xe
+ 1192 0050 3A       		.uleb128 0x3a
+ 1193 0051 0B       		.uleb128 0xb
+ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 22
+
+
+ 1194 0052 3B       		.uleb128 0x3b
+ 1195 0053 0B       		.uleb128 0xb
+ 1196 0054 49       		.uleb128 0x49
+ 1197 0055 13       		.uleb128 0x13
+ 1198 0056 3F       		.uleb128 0x3f
+ 1199 0057 19       		.uleb128 0x19
+ 1200 0058 02       		.uleb128 0x2
+ 1201 0059 18       		.uleb128 0x18
+ 1202 005a 00       		.byte	0
+ 1203 005b 00       		.byte	0
+ 1204 005c 09       		.uleb128 0x9
+ 1205 005d 21       		.uleb128 0x21
+ 1206 005e 00       		.byte	0
+ 1207 005f 49       		.uleb128 0x49
+ 1208 0060 13       		.uleb128 0x13
+ 1209 0061 2F       		.uleb128 0x2f
+ 1210 0062 0B       		.uleb128 0xb
+ 1211 0063 00       		.byte	0
+ 1212 0064 00       		.byte	0
+ 1213 0065 00       		.byte	0
+ 1214              		.section	.debug_aranges,"",%progbits
+ 1215 0000 14000000 		.4byte	0x14
+ 1216 0004 0200     		.2byte	0x2
+ 1217 0006 00000000 		.4byte	.Ldebug_info0
+ 1218 000a 04       		.byte	0x4
+ 1219 000b 00       		.byte	0
+ 1220 000c 0000     		.2byte	0
+ 1221 000e 0000     		.2byte	0
+ 1222 0010 00000000 		.4byte	0
+ 1223 0014 00000000 		.4byte	0
+ 1224              		.section	.debug_line,"",%progbits
+ 1225              	.Ldebug_line0:
+ 1226 0000 3D010000 		.section	.debug_str,"MS",%progbits,1
+ 1226      02003701 
+ 1226      00000201 
+ 1226      FB0E0D00 
+ 1226      01010101 
+ 1227              	.LASF9:
+ 1228 0000 5F5F7569 		.ascii	"__uint8_t\000"
+ 1228      6E74385F 
+ 1228      7400
+ 1229              	.LASF16:
+ 1230 000a 63795F6D 		.ascii	"cy_metadata\000"
+ 1230      65746164 
+ 1230      61746100 
+ 1231              	.LASF1:
+ 1232 0016 756E7369 		.ascii	"unsigned char\000"
+ 1232      676E6564 
+ 1232      20636861 
+ 1232      7200
+ 1233              	.LASF17:
+ 1234 0024 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 1234      43313120 
+ 1234      352E342E 
+ 1234      31203230 
+ 1234      31363036 
+ 1235 0057 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 23
+
+
+ 1235      20726576 
+ 1235      6973696F 
+ 1235      6E203233 
+ 1235      37373135 
+ 1236 008a 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 1236      66756E63 
+ 1236      74696F6E 
+ 1236      2D736563 
+ 1236      74696F6E 
+ 1237              	.LASF5:
+ 1238 00b2 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1238      20756E73 
+ 1238      69676E65 
+ 1238      6420696E 
+ 1238      7400
+ 1239              	.LASF3:
+ 1240 00c4 73686F72 		.ascii	"short unsigned int\000"
+ 1240      7420756E 
+ 1240      7369676E 
+ 1240      65642069 
+ 1240      6E7400
+ 1241              	.LASF13:
+ 1242 00d7 63795F6D 		.ascii	"cy_meta_custnvl\000"
+ 1242      6574615F 
+ 1242      63757374 
+ 1242      6E766C00 
+ 1243              	.LASF12:
+ 1244 00e7 63795F6D 		.ascii	"cy_meta_configecc\000"
+ 1244      6574615F 
+ 1244      636F6E66 
+ 1244      69676563 
+ 1244      6300
+ 1245              	.LASF8:
+ 1246 00f9 756E7369 		.ascii	"unsigned int\000"
+ 1246      676E6564 
+ 1246      20696E74 
+ 1246      00
+ 1247              	.LASF7:
+ 1248 0106 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1248      206C6F6E 
+ 1248      6720756E 
+ 1248      7369676E 
+ 1248      65642069 
+ 1249              	.LASF10:
+ 1250 011d 75696E74 		.ascii	"uint8_t\000"
+ 1250      385F7400 
+ 1251              	.LASF15:
+ 1252 0125 63795F6D 		.ascii	"cy_meta_flashprotect\000"
+ 1252      6574615F 
+ 1252      666C6173 
+ 1252      6870726F 
+ 1252      74656374 
+ 1253              	.LASF14:
+ 1254 013a 63795F6D 		.ascii	"cy_meta_wonvl\000"
+ 1254      6574615F 
+ 1254      776F6E76 
+ 1254      6C00
+ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 24
+
+
+ 1255              	.LASF11:
+ 1256 0148 73697A65 		.ascii	"sizetype\000"
+ 1256      74797065 
+ 1256      00
+ 1257              	.LASF6:
+ 1258 0151 6C6F6E67 		.ascii	"long long int\000"
+ 1258      206C6F6E 
+ 1258      6720696E 
+ 1258      7400
+ 1259              	.LASF19:
+ 1260 015f 433A5C55 		.ascii	"C:\\Users\\kathe\\OneDrive\\Documentos\\PSoC Creato"
+ 1260      73657273 
+ 1260      5C6B6174 
+ 1260      68655C4F 
+ 1260      6E654472 
+ 1261 018d 725C4269 		.ascii	"r\\Bioingenieria\\Pulsioximetro.cydsn\000"
+ 1261      6F696E67 
+ 1261      656E6965 
+ 1261      7269615C 
+ 1261      50756C73 
+ 1262              	.LASF2:
+ 1263 01b1 73686F72 		.ascii	"short int\000"
+ 1263      7420696E 
+ 1263      7400
+ 1264              	.LASF4:
+ 1265 01bb 6C6F6E67 		.ascii	"long int\000"
+ 1265      20696E74 
+ 1265      00
+ 1266              	.LASF0:
+ 1267 01c4 7369676E 		.ascii	"signed char\000"
+ 1267      65642063 
+ 1267      68617200 
+ 1268              	.LASF18:
+ 1269 01d0 47656E65 		.ascii	"Generated_Source\\PSoC5\\cymetadata.c\000"
+ 1269      72617465 
+ 1269      645F536F 
+ 1269      75726365 
+ 1269      5C50536F 
+ 1270              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

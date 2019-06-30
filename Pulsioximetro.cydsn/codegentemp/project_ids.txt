@@ -1,0 +1,6 @@
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|5c6eb712-193b-4735-a400-42b3e00c7f05
+C:\Users\kathe\OneDrive\Documentos\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|3e6e906f-3af0-4d18-a9a8-10dd421cc3ad
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|8304196e-d9a9-4a5f-a541-2596d66b57d8
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|7825fad1-94d1-4931-9ba2-b05fa97f7b38
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|aa755b28-0872-4dd3-82c0-a90645a822d9
+C:\Users\kathe\OneDrive\Documentos\PSoC Creator\Bioingenieria\Pulsioximetro.cydsn\Pulsioximetro.cyprj|38cc5f71-7d14-43a0-9dbd-bef14bac532c
