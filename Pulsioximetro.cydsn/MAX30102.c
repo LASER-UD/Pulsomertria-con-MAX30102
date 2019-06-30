@@ -419,16 +419,10 @@ void Max_Init(unsigned char powerLevel, unsigned char sampleAverage, unsigned ch
 
 unsigned long Max_getIR(void)
 {
-  clearFIFO();
   unsigned char readPointer = getReadPointer();
   unsigned char writePointer = getWritePointer();
-  char Buffer2[12]={};
-  sprintf(Buffer2,"%d",getReadPointer());//lo codifica en ascci
-  UART_PutString(Buffer2);
-  UART_PutString("Datos \r\n");
-  int numberOfSamples = writePointer - readPointer;    //Calculate the number of readings we need to get from sensor
   //Do we have new data?
-  if (numberOfSamples > 0)
+  if (readPointer != writePointer)
   {
     unsigned char tempIR[sizeof(uint32_t)]; //Array of 4 bytes that we will convert into long
     unsigned long tempLongIR=0;
@@ -436,22 +430,16 @@ unsigned long Max_getIR(void)
     if(Max_Beginwrite(MAX30102_ADDRESS)){
     I2C_MasterWriteByte(MAX30102_FIFODATA);//Pone direccion de la fifo 
     I2C_MasterSendRestart(MAX30102_ADDRESS, I2C_READ_XFER_MODE); // Re transmite para obtener datos   
-    while (numberOfSamples>0){
-        I2C_MasterReadByte(I2C_ACK_DATA);
-        I2C_MasterReadByte(I2C_ACK_DATA);
-        I2C_MasterReadByte(I2C_ACK_DATA);
-        tempIR[2] = I2C_MasterReadByte(I2C_ACK_DATA);
-        tempIR[1] = I2C_MasterReadByte(I2C_ACK_DATA);
-        if(numberOfSamples==1){
-            tempIR[0] = I2C_MasterReadByte(I2C_NAK_DATA);
-        }else{
-            tempIR[0] = I2C_MasterReadByte(I2C_ACK_DATA);
-        }
-        numberOfSamples--;
-    }
+    I2C_MasterReadByte(I2C_ACK_DATA);
+    I2C_MasterReadByte(I2C_ACK_DATA);
+    I2C_MasterReadByte(I2C_ACK_DATA);
+    tempIR[2] = I2C_MasterReadByte(I2C_ACK_DATA);
+    tempIR[1] = I2C_MasterReadByte(I2C_ACK_DATA);
+    tempIR[0] = I2C_MasterReadByte(I2C_NAK_DATA);
     I2C_MasterSendStop();
     memcpy(&tempLongIR, tempIR, sizeof(tempLongIR));     //Convert array to long
-    tempLongIR &= 0x3FFFF;
+    tempLongIR &= 0x3FFFF;    
+    clearFIFO();
     }     
     return tempLongIR;     
     }else{

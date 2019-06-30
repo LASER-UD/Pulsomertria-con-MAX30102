@@ -20,9 +20,9 @@
 const unsigned char ledBrightness = 0x1F; //Options: 0=Off to 255=50mA
 const unsigned char sampleAverage = 8; //Options: 1, 2, 4, 8, 16, 32
 const unsigned char ledMode = 3; //Options: 1 = Red only, 2 = Red + IR, 3 = Red + IR + Green
-const int sampleRate = 100; //Options: 50, 100, 200, 400, 800, 1000, 1600, 3200
+const int sampleRate = 200; //Options: 50, 100, 200, 400, 800, 1000, 1600, 3200
 const int pulseWidth = 411; //Options: 69, 118, 215, 411
-const int adcRange = 4096; //Options: 2048, 4096, 8192, 16384
+const int adcRange = 8192; //Options: 2048, 4096, 8192, 16384
 
 volatile char data;
 char Buffer[12]={};
@@ -62,7 +62,7 @@ int main(void)
         sprintf(Buffer,"%lu",Max_getIR());//lo codifica en ascci
         UART_PutString(Buffer);
         UART_PutString("\r\n");
-        CyDelay(1000);
+        CyDelay(100);
         /* Place your application code here. */
     }
 }
