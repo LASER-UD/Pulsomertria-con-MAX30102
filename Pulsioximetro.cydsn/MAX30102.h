@@ -14,8 +14,8 @@
 
 unsigned char activeLEDs;    
     
-void Max_Init(unsigned char powerLevel, unsigned char sampleAverage, unsigned char ledMode, int sampleRate, int pulseWidth, int adcRange);    
-unsigned char Max_Get_data(char sladress);   
+void Max_Init(unsigned char powerLevel, unsigned char sampleAverage, unsigned char ledMode, int sampleRate, int pulseWidth, int adcRange);      
+unsigned long Max_getIR(void);
 
 #ifdef	__cplusplus
 }

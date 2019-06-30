@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 1
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cc2EjsGC.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 1
   55 001a 01       		.byte	1
   56 001b 40       		.byte	64
   57 001c 03       		.byte	3
-ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 2
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cc2EjsGC.s 			page 2
 
 
   58 001d 1B       		.byte	27
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 1
  112 0053 08       		.byte	8
  113 0054 02       		.byte	2
  114 0055 08       		.byte	8
-ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 3
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cc2EjsGC.s 			page 3
 
 
  115 0056 03       		.byte	3
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 1
  169 008c 33       		.byte	51
  170 008d 18       		.byte	24
  171 008e 34       		.byte	52
-ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 4
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cc2EjsGC.s 			page 4
 
 
  172 008f E0       		.byte	-32
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 1
  226 00c5 13       		.byte	19
  227 00c6 84       		.byte	-124
  228 00c7 0C       		.byte	12
-ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 5
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cc2EjsGC.s 			page 5
 
 
  229 00c8 86       		.byte	-122
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 1
  283 00fe BB       		.byte	-69
  284 00ff 20       		.byte	32
  285 0100 BF       		.byte	-65
-ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 6
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cc2EjsGC.s 			page 6
 
 
  286 0101 04       		.byte	4
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 1
  340 0137 02       		.byte	2
  341 0138 10       		.byte	16
  342 0139 82       		.byte	-126
-ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 7
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cc2EjsGC.s 			page 7
 
 
  343 013a 11       		.byte	17
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 1
  397 0170 43       		.byte	67
  398 0171 28       		.byte	40
  399 0172 47       		.byte	71
-ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 8
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cc2EjsGC.s 			page 8
 
 
  400 0173 10       		.byte	16
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 1
  454 01a9 66       		.byte	102
  455 01aa CC       		.byte	-52
  456 01ab C2       		.byte	-62
-ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 9
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cc2EjsGC.s 			page 9
 
 
  457 01ac CE       		.byte	-50
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 1
  511 01e2 00       		.byte	0
  512 01e3 24       		.byte	36
  513 01e4 02       		.byte	2
-ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 10
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cc2EjsGC.s 			page 10
 
 
  514 01e5 01       		.byte	1
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 1
  568 021b 80       		.byte	-128
  569 021c 32       		.byte	50
  570 021d 14       		.byte	20
-ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 11
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cc2EjsGC.s 			page 11
 
 
  571 021e 38       		.byte	56
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 1
  625 0254 C2       		.byte	-62
  626 0255 5F       		.byte	95
  627 0256 C4       		.byte	-60
-ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 12
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cc2EjsGC.s 			page 12
 
 
  628 0257 6F       		.byte	111
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 1
  682 028d 10       		.byte	16
  683 028e 13       		.byte	19
  684 028f 02       		.byte	2
-ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 13
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cc2EjsGC.s 			page 13
 
 
  685 0290 16       		.byte	22
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 1
  739 02c6 DE       		.byte	-34
  740 02c7 03       		.byte	3
  741 02c8 87       		.byte	-121
-ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 14
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cc2EjsGC.s 			page 14
 
 
  742 02c9 40       		.byte	64
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 1
  796 02ff 00       		.byte	0
  797 0300 04       		.byte	4
  798 0301 C0       		.byte	-64
-ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 15
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cc2EjsGC.s 			page 15
 
 
  799 0302 00       		.byte	0
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 1
  853 0338 00       		.byte	0
  854 0339 00       		.byte	0
  855 033a 00       		.byte	0
-ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 16
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cc2EjsGC.s 			page 16
 
 
  856 033b 01       		.byte	1
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 1
  910 0371 00       		.byte	0
  911 0372 02       		.byte	2
  912 0373 00       		.byte	0
-ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 17
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cc2EjsGC.s 			page 17
 
 
  913 0374 00       		.byte	0
@@ -1018,22 +1018,22 @@ ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 1
  963              		.section	.debug_info,"",%progbits
  964              	.Ldebug_info0:
  965 0000 31010000 		.4byte	0x131
-ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 18
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cc2EjsGC.s 			page 18
 
 
  966 0004 0400     		.2byte	0x4
  967 0006 00000000 		.4byte	.Ldebug_abbrev0
  968 000a 04       		.byte	0x4
  969 000b 01       		.uleb128 0x1
- 970 000c 24000000 		.4byte	.LASF17
+ 970 000c 78000000 		.4byte	.LASF17
  971 0010 0C       		.byte	0xc
- 972 0011 D0010000 		.4byte	.LASF18
- 973 0015 5F010000 		.4byte	.LASF19
+ 972 0011 D2010000 		.4byte	.LASF18
+ 973 0015 0A000000 		.4byte	.LASF19
  974 0019 00000000 		.4byte	.Ldebug_line0
  975 001d 02       		.uleb128 0x2
  976 001e 01       		.byte	0x1
  977 001f 06       		.byte	0x6
- 978 0020 C4010000 		.4byte	.LASF0
+ 978 0020 C6010000 		.4byte	.LASF0
  979 0024 03       		.uleb128 0x3
  980 0025 00000000 		.4byte	.LASF9
  981 0029 01       		.byte	0x1
@@ -1042,31 +1042,31 @@ ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 1
  984 002f 02       		.uleb128 0x2
  985 0030 01       		.byte	0x1
  986 0031 08       		.byte	0x8
- 987 0032 16000000 		.4byte	.LASF1
+ 987 0032 6A000000 		.4byte	.LASF1
  988 0036 02       		.uleb128 0x2
  989 0037 02       		.byte	0x2
  990 0038 05       		.byte	0x5
- 991 0039 B1010000 		.4byte	.LASF2
+ 991 0039 B3010000 		.4byte	.LASF2
  992 003d 02       		.uleb128 0x2
  993 003e 02       		.byte	0x2
  994 003f 07       		.byte	0x7
- 995 0040 C4000000 		.4byte	.LASF3
+ 995 0040 18010000 		.4byte	.LASF3
  996 0044 02       		.uleb128 0x2
  997 0045 04       		.byte	0x4
  998 0046 05       		.byte	0x5
- 999 0047 BB010000 		.4byte	.LASF4
+ 999 0047 BD010000 		.4byte	.LASF4
  1000 004b 02       		.uleb128 0x2
  1001 004c 04       		.byte	0x4
  1002 004d 07       		.byte	0x7
- 1003 004e B2000000 		.4byte	.LASF5
+ 1003 004e 06010000 		.4byte	.LASF5
  1004 0052 02       		.uleb128 0x2
  1005 0053 08       		.byte	0x8
  1006 0054 05       		.byte	0x5
- 1007 0055 51010000 		.4byte	.LASF6
+ 1007 0055 A5010000 		.4byte	.LASF6
  1008 0059 02       		.uleb128 0x2
  1009 005a 08       		.byte	0x8
  1010 005b 07       		.byte	0x7
- 1011 005c 06010000 		.4byte	.LASF7
+ 1011 005c 5A010000 		.4byte	.LASF7
  1012 0060 04       		.uleb128 0x4
  1013 0061 04       		.byte	0x4
  1014 0062 05       		.byte	0x5
@@ -1074,11 +1074,11 @@ ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 1
  1016 0067 02       		.uleb128 0x2
  1017 0068 04       		.byte	0x4
  1018 0069 07       		.byte	0x7
- 1019 006a F9000000 		.4byte	.LASF8
+ 1019 006a 4D010000 		.4byte	.LASF8
  1020 006e 03       		.uleb128 0x3
- 1021 006f 1D010000 		.4byte	.LASF10
+ 1021 006f 71010000 		.4byte	.LASF10
  1022 0073 02       		.byte	0x2
-ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 19
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cc2EjsGC.s 			page 19
 
 
  1023 0074 18       		.byte	0x18
@@ -1093,11 +1093,11 @@ ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 1
  1032 008a 02       		.uleb128 0x2
  1033 008b 04       		.byte	0x4
  1034 008c 07       		.byte	0x7
- 1035 008d 48010000 		.4byte	.LASF11
+ 1035 008d 9C010000 		.4byte	.LASF11
  1036 0091 07       		.uleb128 0x7
  1037 0092 6E000000 		.4byte	0x6e
  1038 0096 08       		.uleb128 0x8
- 1039 0097 E7000000 		.4byte	.LASF12
+ 1039 0097 3B010000 		.4byte	.LASF12
  1040 009b 03       		.byte	0x3
  1041 009c 1F       		.byte	0x1f
  1042 009d A7000000 		.4byte	0xa7
@@ -1114,7 +1114,7 @@ ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 1
  1053 00ba 03       		.byte	0x3
  1054 00bb 00       		.byte	0
  1055 00bc 08       		.uleb128 0x8
- 1056 00bd D7000000 		.4byte	.LASF13
+ 1056 00bd 2B010000 		.4byte	.LASF13
  1057 00c1 03       		.byte	0x3
  1058 00c2 9B       		.byte	0x9b
  1059 00c3 CD000000 		.4byte	0xcd
@@ -1124,7 +1124,7 @@ ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 1
  1063 00cd 07       		.uleb128 0x7
  1064 00ce AC000000 		.4byte	0xac
  1065 00d2 08       		.uleb128 0x8
- 1066 00d3 3A010000 		.4byte	.LASF14
+ 1066 00d3 8E010000 		.4byte	.LASF14
  1067 00d7 03       		.byte	0x3
  1068 00d8 A9       		.byte	0xa9
  1069 00d9 E3000000 		.4byte	0xe3
@@ -1138,13 +1138,13 @@ ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 1
  1077 00ed F8000000 		.4byte	0xf8
  1078 00f1 09       		.uleb128 0x9
  1079 00f2 8A000000 		.4byte	0x8a
-ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 20
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cc2EjsGC.s 			page 20
 
 
  1080 00f6 FF       		.byte	0xff
  1081 00f7 00       		.byte	0
  1082 00f8 08       		.uleb128 0x8
- 1083 00f9 25010000 		.4byte	.LASF15
+ 1083 00f9 79010000 		.4byte	.LASF15
  1084 00fd 03       		.byte	0x3
  1085 00fe B7       		.byte	0xb7
  1086 00ff 09010000 		.4byte	0x109
@@ -1161,7 +1161,7 @@ ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 1
  1097 011c 0B       		.byte	0xb
  1098 011d 00       		.byte	0
  1099 011e 08       		.uleb128 0x8
- 1100 011f 0A000000 		.4byte	.LASF16
+ 1100 011f 5E000000 		.4byte	.LASF16
  1101 0123 03       		.byte	0x3
  1102 0124 E4       		.byte	0xe4
  1103 0125 2F010000 		.4byte	0x12f
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 1
  1134 0016 03       		.uleb128 0x3
  1135 0017 0E       		.uleb128 0xe
  1136 0018 00       		.byte	0
-ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 21
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cc2EjsGC.s 			page 21
 
 
  1137 0019 00       		.byte	0
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 1
  1191 004f 0E       		.uleb128 0xe
  1192 0050 3A       		.uleb128 0x3a
  1193 0051 0B       		.uleb128 0xb
-ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 22
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cc2EjsGC.s 			page 22
 
 
  1194 0052 3B       		.uleb128 0x3b
@@ -1302,119 +1302,119 @@ ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 1
  1228 0000 5F5F7569 		.ascii	"__uint8_t\000"
  1228      6E74385F 
  1228      7400
- 1229              	.LASF16:
- 1230 000a 63795F6D 		.ascii	"cy_metadata\000"
- 1230      65746164 
- 1230      61746100 
- 1231              	.LASF1:
- 1232 0016 756E7369 		.ascii	"unsigned char\000"
- 1232      676E6564 
- 1232      20636861 
- 1232      7200
- 1233              	.LASF17:
- 1234 0024 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 1234      43313120 
- 1234      352E342E 
- 1234      31203230 
- 1234      31363036 
- 1235 0057 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
-ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 23
+ 1229              	.LASF19:
+ 1230 000a 433A5C55 		.ascii	"C:\\Users\\nikod\\Documents\\PSoC Creator\\Pulsomer"
+ 1230      73657273 
+ 1230      5C6E696B 
+ 1230      6F645C44 
+ 1230      6F63756D 
+ 1231 0038 74726961 		.ascii	"tria-con-MAX30102\\Pulsioximetro.cydsn\000"
+ 1231      2D636F6E 
+ 1231      2D4D4158 
+ 1231      33303130 
+ 1231      325C5075 
+ 1232              	.LASF16:
+ 1233 005e 63795F6D 		.ascii	"cy_metadata\000"
+ 1233      65746164 
+ 1233      61746100 
+ 1234              	.LASF1:
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cc2EjsGC.s 			page 23
 
 
- 1235      20726576 
- 1235      6973696F 
- 1235      6E203233 
- 1235      37373135 
- 1236 008a 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
- 1236      66756E63 
- 1236      74696F6E 
- 1236      2D736563 
- 1236      74696F6E 
- 1237              	.LASF5:
- 1238 00b2 6C6F6E67 		.ascii	"long unsigned int\000"
- 1238      20756E73 
- 1238      69676E65 
- 1238      6420696E 
- 1238      7400
- 1239              	.LASF3:
- 1240 00c4 73686F72 		.ascii	"short unsigned int\000"
- 1240      7420756E 
- 1240      7369676E 
- 1240      65642069 
- 1240      6E7400
- 1241              	.LASF13:
- 1242 00d7 63795F6D 		.ascii	"cy_meta_custnvl\000"
- 1242      6574615F 
- 1242      63757374 
- 1242      6E766C00 
- 1243              	.LASF12:
- 1244 00e7 63795F6D 		.ascii	"cy_meta_configecc\000"
- 1244      6574615F 
- 1244      636F6E66 
- 1244      69676563 
- 1244      6300
- 1245              	.LASF8:
- 1246 00f9 756E7369 		.ascii	"unsigned int\000"
- 1246      676E6564 
- 1246      20696E74 
- 1246      00
- 1247              	.LASF7:
- 1248 0106 6C6F6E67 		.ascii	"long long unsigned int\000"
- 1248      206C6F6E 
- 1248      6720756E 
- 1248      7369676E 
- 1248      65642069 
- 1249              	.LASF10:
- 1250 011d 75696E74 		.ascii	"uint8_t\000"
- 1250      385F7400 
- 1251              	.LASF15:
- 1252 0125 63795F6D 		.ascii	"cy_meta_flashprotect\000"
- 1252      6574615F 
- 1252      666C6173 
- 1252      6870726F 
- 1252      74656374 
- 1253              	.LASF14:
- 1254 013a 63795F6D 		.ascii	"cy_meta_wonvl\000"
- 1254      6574615F 
- 1254      776F6E76 
- 1254      6C00
-ARM GAS  C:\Users\kathe\AppData\Local\Temp\cclWNLoe.s 			page 24
+ 1235 006a 756E7369 		.ascii	"unsigned char\000"
+ 1235      676E6564 
+ 1235      20636861 
+ 1235      7200
+ 1236              	.LASF17:
+ 1237 0078 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 1237      43313120 
+ 1237      352E342E 
+ 1237      31203230 
+ 1237      31363036 
+ 1238 00ab 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 1238      20726576 
+ 1238      6973696F 
+ 1238      6E203233 
+ 1238      37373135 
+ 1239 00de 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 1239      66756E63 
+ 1239      74696F6E 
+ 1239      2D736563 
+ 1239      74696F6E 
+ 1240              	.LASF5:
+ 1241 0106 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1241      20756E73 
+ 1241      69676E65 
+ 1241      6420696E 
+ 1241      7400
+ 1242              	.LASF3:
+ 1243 0118 73686F72 		.ascii	"short unsigned int\000"
+ 1243      7420756E 
+ 1243      7369676E 
+ 1243      65642069 
+ 1243      6E7400
+ 1244              	.LASF13:
+ 1245 012b 63795F6D 		.ascii	"cy_meta_custnvl\000"
+ 1245      6574615F 
+ 1245      63757374 
+ 1245      6E766C00 
+ 1246              	.LASF12:
+ 1247 013b 63795F6D 		.ascii	"cy_meta_configecc\000"
+ 1247      6574615F 
+ 1247      636F6E66 
+ 1247      69676563 
+ 1247      6300
+ 1248              	.LASF8:
+ 1249 014d 756E7369 		.ascii	"unsigned int\000"
+ 1249      676E6564 
+ 1249      20696E74 
+ 1249      00
+ 1250              	.LASF7:
+ 1251 015a 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1251      206C6F6E 
+ 1251      6720756E 
+ 1251      7369676E 
+ 1251      65642069 
+ 1252              	.LASF10:
+ 1253 0171 75696E74 		.ascii	"uint8_t\000"
+ 1253      385F7400 
+ARM GAS  C:\Users\nikod\AppData\Local\Temp\cc2EjsGC.s 			page 24
 
 
- 1255              	.LASF11:
- 1256 0148 73697A65 		.ascii	"sizetype\000"
- 1256      74797065 
- 1256      00
- 1257              	.LASF6:
- 1258 0151 6C6F6E67 		.ascii	"long long int\000"
- 1258      206C6F6E 
- 1258      6720696E 
- 1258      7400
- 1259              	.LASF19:
- 1260 015f 433A5C55 		.ascii	"C:\\Users\\kathe\\OneDrive\\Documentos\\PSoC Creato"
- 1260      73657273 
- 1260      5C6B6174 
- 1260      68655C4F 
- 1260      6E654472 
- 1261 018d 725C4269 		.ascii	"r\\Bioingenieria\\Pulsioximetro.cydsn\000"
- 1261      6F696E67 
- 1261      656E6965 
- 1261      7269615C 
- 1261      50756C73 
+ 1254              	.LASF15:
+ 1255 0179 63795F6D 		.ascii	"cy_meta_flashprotect\000"
+ 1255      6574615F 
+ 1255      666C6173 
+ 1255      6870726F 
+ 1255      74656374 
+ 1256              	.LASF14:
+ 1257 018e 63795F6D 		.ascii	"cy_meta_wonvl\000"
+ 1257      6574615F 
+ 1257      776F6E76 
+ 1257      6C00
+ 1258              	.LASF11:
+ 1259 019c 73697A65 		.ascii	"sizetype\000"
+ 1259      74797065 
+ 1259      00
+ 1260              	.LASF6:
+ 1261 01a5 6C6F6E67 		.ascii	"long long int\000"
+ 1261      206C6F6E 
+ 1261      6720696E 
+ 1261      7400
  1262              	.LASF2:
- 1263 01b1 73686F72 		.ascii	"short int\000"
+ 1263 01b3 73686F72 		.ascii	"short int\000"
  1263      7420696E 
  1263      7400
  1264              	.LASF4:
- 1265 01bb 6C6F6E67 		.ascii	"long int\000"
+ 1265 01bd 6C6F6E67 		.ascii	"long int\000"
  1265      20696E74 
  1265      00
  1266              	.LASF0:
- 1267 01c4 7369676E 		.ascii	"signed char\000"
+ 1267 01c6 7369676E 		.ascii	"signed char\000"
  1267      65642063 
  1267      68617200 
  1268              	.LASF18:
- 1269 01d0 47656E65 		.ascii	"Generated_Source\\PSoC5\\cymetadata.c\000"
+ 1269 01d2 47656E65 		.ascii	"Generated_Source\\PSoC5\\cymetadata.c\000"
  1269      72617465 
  1269      645F536F 
  1269      75726365 

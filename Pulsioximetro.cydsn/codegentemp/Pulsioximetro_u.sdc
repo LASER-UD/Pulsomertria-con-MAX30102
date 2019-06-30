@@ -1,3 +1,3 @@
-# Component constraints for C:\Users\kathe\OneDrive\Documentos\PSoC Creator\Bioingenieria\Pulsioximetro.cydsn\TopDesign\TopDesign.cysch
-# Project: C:\Users\kathe\OneDrive\Documentos\PSoC Creator\Bioingenieria\Pulsioximetro.cydsn\Pulsioximetro.cyprj
-# Date: Sat, 29 Jun 2019 03:45:48 GMT
+# Component constraints for C:\Users\nikod\Documents\PSoC Creator\Pulsomertria-con-MAX30102\Pulsioximetro.cydsn\TopDesign\TopDesign.cysch
+# Project: C:\Users\nikod\Documents\PSoC Creator\Pulsomertria-con-MAX30102\Pulsioximetro.cydsn\Pulsioximetro.cyprj
+# Date: Sun, 30 Jun 2019 03:34:44 GMT

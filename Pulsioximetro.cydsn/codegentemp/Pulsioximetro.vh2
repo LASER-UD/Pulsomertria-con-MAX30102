@@ -2,7 +2,7 @@
 --	Conversion of Pulsioximetro.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Fri Jun 28 22:45:50 2019
+--	Sat Jun 29 22:34:50 2019
 --
 
 USE cypress.cypress.all;

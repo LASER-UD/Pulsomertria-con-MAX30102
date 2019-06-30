@@ -1,5 +1,5 @@
--- Project:   C:\Users\kathe\OneDrive\Documentos\PSoC Creator\Bioingenieria\Pulsioximetro.cydsn\Pulsioximetro.cyprj
--- Generated: 06/28/2019 22:45:55
+-- Project:   C:\Users\nikod\Documents\PSoC Creator\Pulsomertria-con-MAX30102\Pulsioximetro.cydsn\Pulsioximetro.cyprj
+-- Generated: 06/29/2019 22:35:04
 -- PSoC Creator  4.2
 
 ENTITY Pulsioximetro IS

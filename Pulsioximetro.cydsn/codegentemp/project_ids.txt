@@ -1,6 +1,6 @@
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|5c6eb712-193b-4735-a400-42b3e00c7f05
-C:\Users\kathe\OneDrive\Documentos\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|3e6e906f-3af0-4d18-a9a8-10dd421cc3ad
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|8304196e-d9a9-4a5f-a541-2596d66b57d8
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|7825fad1-94d1-4931-9ba2-b05fa97f7b38
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|aa755b28-0872-4dd3-82c0-a90645a822d9
-C:\Users\kathe\OneDrive\Documentos\PSoC Creator\Bioingenieria\Pulsioximetro.cydsn\Pulsioximetro.cyprj|38cc5f71-7d14-43a0-9dbd-bef14bac532c
+C:\Users\nikod\Documents\PSoC Creator\Pulsomertria-con-MAX30102\Pulsioximetro.cydsn\Pulsioximetro.cyprj|6df2b59a-024f-4343-b1be-638f11627c19
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|9ebec055-319b-4ad4-8b6d-b9a85c3140e6
+C:\Users\nikod\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|a5690fe3-9a3b-485f-a581-92bcb0b0b5ec
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|c57bb5a2-297a-4deb-82fe-5725028c21dc
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|cec5b585-4c15-4478-9694-eee1c5605325
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|d23079be-432e-4f79-997b-f13e78640cd3

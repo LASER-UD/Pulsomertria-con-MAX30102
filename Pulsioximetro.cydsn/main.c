@@ -25,6 +25,7 @@ const int pulseWidth = 411; //Options: 69, 118, 215, 411
 const int adcRange = 4096; //Options: 2048, 4096, 8192, 16384
 
 volatile char data;
+char Buffer[12]={};
 
 CY_ISR(InterrupRx){
     data=UART_GetChar();//recibe el dato del bluetooth
@@ -49,18 +50,19 @@ CY_ISR(InterrupRx){
 int main(void)
 {
     CyGlobalIntEnable; /* Enable global interrupts. */
-    UART_Start();
     IRQRX_StartEx(InterrupRx);
+    UART_Start();
     UART_PutString("Iniciando\r\n");
-    I2C_Start();
     Max_Init(ledBrightness, sampleAverage, ledMode, sampleRate, pulseWidth, adcRange); //Configure sensor with these settings
     
-
     /* Place your initialization/startup code here (e.g. MyInst_Start()) */
 
     for(;;)
     {
-        Max_getIR();
+        sprintf(Buffer,"%lu",Max_getIR());//lo codifica en ascci
+        UART_PutString(Buffer);
+        UART_PutString("\r\n");
+        CyDelay(10);
         /* Place your application code here. */
     }
 }
