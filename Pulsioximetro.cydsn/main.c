@@ -62,7 +62,7 @@ int main(void)
         sprintf(Buffer,"%lu",Max_getIR());//lo codifica en ascci
         UART_PutString(Buffer);
         UART_PutString("\r\n");
-        CyDelay(10);
+        CyDelay(1000);
         /* Place your application code here. */
     }
 }

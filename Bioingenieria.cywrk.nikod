@@ -70,7 +70,6 @@
 <v>Bioingenieria\Pulsioximetro\Generated_Source\PSoC5\UART</v>
 <v>Bioingenieria\Pulsioximetro\Generated_Source\PSoC5\UART_IntClock</v>
 <v>Bioingenieria\Pulsioximetro\Generated_Source\PSoC5\cycodeshareexport.ld</v>
-<v>Bioingenieria\Pulsioximetro\Generated_Source\PSoC5\cycodeshareimport.ld</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -161,7 +160,6 @@
 <v>Bioingenieria\Pulsioximetro\CortexM3\ARM_GCC_541\Debug\Listing Files\UART.lst</v>
 <v>Bioingenieria\Pulsioximetro\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_BOOT.lst</v>
 <v>Bioingenieria\Pulsioximetro\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_INT.lst</v>
-<v>Bioingenieria\Pulsioximetro\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_IntClock.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
