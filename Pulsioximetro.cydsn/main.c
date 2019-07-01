@@ -25,7 +25,8 @@ const int pulseWidth = 411; //Options: 69, 118, 215, 411
 const int adcRange = 8192; //Options: 2048, 4096, 8192, 16384
 
 volatile char data;
-char Buffer[12]={};
+int cont=0;
+char Buffer[20]={};
 
 CY_ISR(InterrupRx){
     data=UART_GetChar();//recibe el dato del bluetooth
@@ -52,16 +53,29 @@ int main(void)
     CyGlobalIntEnable; /* Enable global interrupts. */
     IRQRX_StartEx(InterrupRx);
     UART_Start();
-    UART_PutString("Iniciando\r\n");
+    UART_PutString("*.kwl\r\n");
+    UART_PutString("clear_panel()\r");
+    UART_PutString("set_grid_size(17,8)\r");
+    UART_PutString("add_text(12,2,large,C,Frecuencia Cardiaca,255,26,57,)\r");
+    UART_PutString("add_gauge(10,4,4,0,100,0,F,,,10,5)\r");
+    UART_PutString("add_roll_graph(1,1,8,321.0,341.0,50,T,Oxymetria,tiempo,Oxymetria,1,0,1,0,1,1,thin,none,1,1,47,218,107)\r");
+    UART_PutString("run()\r");
+    UART_PutString("*\r");
     Max_Init(ledBrightness, sampleAverage, ledMode, sampleRate, pulseWidth, adcRange); //Configure sensor with these settings
     
     /* Place your initialization/startup code here (e.g. MyInst_Start()) */
 
     for(;;)
     {
-        sprintf(Buffer,"%lu",Max_getIR());//lo codifica en ascci
+        //sprintf(Buffer,"*T%d,%d*",,cont);//lo codifica en ascci
+        sprintf(Buffer,"*T%lu*",Max_getIR());//lo codifica en ascci
         UART_PutString(Buffer);
-        UART_PutString("\r\n");
+        UART_PutString("\r\n");        
+        cont=cont+1;
+        if(cont==100){
+            cont=0;
+            UART_PutString("clear_panel()\r");
+        }
         CyDelay(100);
         /* Place your application code here. */
     }
