@@ -25,8 +25,11 @@ const int pulseWidth = 411; //Options: 69, 118, 215, 411
 const int adcRange = 8192; //Options: 2048, 4096, 8192, 16384
 
 volatile char data;
-int cont=0;
+unsigned char cont=0,pulse=0;
+unsigned char frecuencia=30;
 char Buffer[20]={};
+bool bandera=false;
+unsigned long aux[3]={0,0,0};
 
 CY_ISR(InterrupRx){
     data=UART_GetChar();//recibe el dato del bluetooth
@@ -57,26 +60,44 @@ int main(void)
     UART_PutString("clear_panel()\r");
     UART_PutString("set_grid_size(17,8)\r");
     UART_PutString("add_text(12,2,large,C,Frecuencia Cardiaca,255,26,57,)\r");
-    UART_PutString("add_gauge(10,4,4,0,100,0,F,,,10,5)\r");
+    UART_PutString("add_text_box(12,5,2,L,No C,245,240,245,A)\r");
+    UART_PutString("add_gauge(10,4,4,50,100,50,F,,,10,5)\r");
     UART_PutString("add_roll_graph(1,1,8,321.0,341.0,50,T,Oxymetria,tiempo,Oxymetria,1,0,1,0,1,1,thin,none,1,1,47,218,107)\r");
     UART_PutString("run()\r");
     UART_PutString("*\r");
     Max_Init(ledBrightness, sampleAverage, ledMode, sampleRate, pulseWidth, adcRange); //Configure sensor with these settings
-    
     /* Place your initialization/startup code here (e.g. MyInst_Start()) */
 
     for(;;)
     {
         //sprintf(Buffer,"*T%d,%d*",,cont);//lo codifica en ascci
-        sprintf(Buffer,"*T%lu*",Max_getIR());//lo codifica en ascci
+        aux[0]=aux[1];
+        aux[1]=aux[2];
+        aux[2]=Max_getIR();
+        sprintf(Buffer,"*T%lu*",aux[2]);//lo codifica en ascci
         UART_PutString(Buffer);
-        UART_PutString("\r\n");        
-        cont=cont+1;
-        if(cont==100){
-            cont=0;
-            UART_PutString("clear_panel()\r");
+        UART_PutString("\r\n");
+        if(aux[1]>46000){
+            if((aux[1]+100>aux[0])&(aux[1]+100>aux[2])){
+                pulse++;
+            }
+            cont=cont+1;
+            if(cont==200){//cada 20 segundo mide la frecuencia cardiaca
+                frecuencia=(unsigned char)(pulse*3);
+                cont=0;
+                pulse=0;
+                sprintf(Buffer,"*F%d*/r*A%d*",frecuencia,frecuencia);//lo codifica en ascci
+                UART_PutString(Buffer);
+                bandera=true;
+            }
+        }else{
+            if(bandera){
+                UART_PutString("*F50*/r*ANo C*");//lo codifica en ascci
+                bandera=false;
+            }
+        
         }
-        CyDelay(100);
+        CyDelay(50);
         /* Place your application code here. */
     }
 }
