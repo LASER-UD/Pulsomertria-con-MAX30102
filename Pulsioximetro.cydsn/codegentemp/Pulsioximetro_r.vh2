@@ -1,5 +1,5 @@
 -- Project:   Pulsioximetro
--- Generated: 07/12/2019 12:35:08
+-- Generated: 07/12/2019 14:02:57
 -- PSoC Creator  4.2
 
 ENTITY Pulsioximetro IS
@@ -908,7 +908,7 @@ BEGIN
         GENERIC MAP(
             drive_mode => "110110110110110110110",
             ibuf_enabled => "1111111",
-            id => "46373d18-ac08-4677-80c9-5990e4051940/ed092b9b-d398-4703-be89-cebf998501f6",
+            id => "b661f150-e33a-445b-b629-176265437ed3/ed092b9b-d398-4703-be89-cebf998501f6",
             init_dr_st => "0000000",
             input_buffer_sel => "00000000000000",
             input_clk_en => 0,

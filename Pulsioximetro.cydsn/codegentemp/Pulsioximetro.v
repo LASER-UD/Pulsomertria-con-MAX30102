@@ -1,6 +1,6 @@
 // ======================================================================
 // Pulsioximetro.v generated from TopDesign.cysch
-// 07/12/2019 at 12:35
+// 07/12/2019 at 14:02
 // This file is auto generated. ANY EDITS YOU MAKE MAY BE LOST WHEN THIS FILE IS REGENERATED!!!
 // ======================================================================
 
@@ -465,7 +465,7 @@ module CharLCD_v2_20_2 ;
 	electrical [0:0] tmpSIOVREF__LCDPort_net;
 
 	cy_psoc3_pins_v1_10
-		#(.id("46373d18-ac08-4677-80c9-5990e4051940/ed092b9b-d398-4703-be89-cebf998501f6"),
+		#(.id("b661f150-e33a-445b-b629-176265437ed3/ed092b9b-d398-4703-be89-cebf998501f6"),
 		  .drive_mode(21'b110_110_110_110_110_110_110),
 		  .ibuf_enabled(7'b1_1_1_1_1_1_1),
 		  .init_dr_st(7'b0_0_0_0_0_0_0),

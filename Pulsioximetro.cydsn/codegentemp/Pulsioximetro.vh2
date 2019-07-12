@@ -2,7 +2,7 @@
 --	Conversion of Pulsioximetro.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Fri Jul 12 12:35:03 2019
+--	Fri Jul 12 14:02:54 2019
 --
 
 USE cypress.cypress.all;
@@ -1217,7 +1217,7 @@ PWR_2:cy_annotation_universal_v1_0
 		width=>1)
 	PORT MAP(connect=>Net_26);
 \LCD:LCDPort\:cy_psoc3_pins_v1_10
-	GENERIC MAP(id=>"46373d18-ac08-4677-80c9-5990e4051940/ed092b9b-d398-4703-be89-cebf998501f6",
+	GENERIC MAP(id=>"b661f150-e33a-445b-b629-176265437ed3/ed092b9b-d398-4703-be89-cebf998501f6",
 		drive_mode=>"110110110110110110110",
 		ibuf_enabled=>"1111111",
 		init_dr_st=>"0000000",

@@ -255,6 +255,7 @@
       <Data key="264be2d3-9481-494b-8d9c-c1905a45e9cc" value="SDA" />
       <Data key="46373d18-ac08-4677-80c9-5990e4051940/ed092b9b-d398-4703-be89-cebf998501f6" value="LCD_LCDPort" />
       <Data key="1425177d-0d0e-4468-8bcc-e638e5509a9b" value="Rx_1" />
+      <Data key="b661f150-e33a-445b-b629-176265437ed3/ed092b9b-d398-4703-be89-cebf998501f6" value="LCD_LCDPort" />
       <Data key="ed092b9b-d398-4703-be89-cebf998501f6" value="Tx_1" />
     </Group>
   </Group>
@@ -3378,6 +3379,29 @@
     <Group key="1425177d-0d0e-4468-8bcc-e638e5509a9b">
       <Group key="0">
         <Data key="Port Format" value="3,0" />
+      </Group>
+    </Group>
+    <Group key="b661f150-e33a-445b-b629-176265437ed3/ed092b9b-d398-4703-be89-cebf998501f6">
+      <Group key="0">
+        <Data key="Port Format" value="12,0" />
+      </Group>
+      <Group key="1">
+        <Data key="Port Format" value="12,1" />
+      </Group>
+      <Group key="2">
+        <Data key="Port Format" value="12,2" />
+      </Group>
+      <Group key="3">
+        <Data key="Port Format" value="12,3" />
+      </Group>
+      <Group key="4">
+        <Data key="Port Format" value="12,4" />
+      </Group>
+      <Group key="5">
+        <Data key="Port Format" value="12,5" />
+      </Group>
+      <Group key="6">
+        <Data key="Port Format" value="12,6" />
       </Group>
     </Group>
     <Group key="ed092b9b-d398-4703-be89-cebf998501f6">

@@ -1,0 +1,7 @@
+C:\Users\jdrd3\Documents\PSoC Creator\Pulsomertria-con-MAX30102\Pulsioximetro.cydsn\Pulsioximetro.cyprj|0e569104-2171-4654-9b89-b50902300be7
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|60f45bb2-fbe5-42d1-83ec-295784ac523a
+C:\Users\jdrd3\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|a7aaf122-3e94-4faa-b5c8-6a8584ec19c2
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|e7d29a1a-bdf7-47ef-98ed-e47b4aca77c4
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|30129e08-4ec6-4176-af68-6a492c94902d
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|ef1b5906-fe12-4724-967f-26ee6510a843
+C:\Users\jdrd3\Documents\PSoC Creator\Pulsomertria-con-MAX30102\LCD.cydsn\LCD.cyprj|0b3988b1-fa25-401e-b81c-27c1cf7439d1

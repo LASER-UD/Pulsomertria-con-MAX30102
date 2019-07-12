@@ -28,7 +28,7 @@ volatile char data;
 unsigned char cont=0,pulse=0;
 unsigned char frecuencia=30;
 char Buffer[20]={};
-bool bandera=false;
+bool bandera=false,bandera2=true;
 unsigned long aux[4]={0,0,0,0};
 
 CY_ISR(InterrupRx){
@@ -55,6 +55,8 @@ int main(void)
 {
     CyGlobalIntEnable; /* Enable global interrupts. */
     IRQRX_StartEx(InterrupRx);
+    LCD_Start();
+    LCD_PrintString("Ubique el dedo");
     UART_Start();
     UART_PutString("*.kwl\r\n");
     UART_PutString("clear_panel()\r");
@@ -66,9 +68,6 @@ int main(void)
     UART_PutString("add_monitor(1,5,5,,1)\r");
     UART_PutString("run()\r");
     UART_PutString("*\r");
-    LCD_Start();
-    LCD_Position(0,0);
-    LCD_PrintString("Ubique su dedo");
     Max_Init(ledBrightness, sampleAverage, ledMode, sampleRate, pulseWidth, adcRange); //Configure sensor with these settings
     /* Place your initialization/startup code here (e.g. MyInst_Start()) */
 
@@ -83,6 +82,12 @@ int main(void)
         UART_PutString(Buffer);
         //UART_PutString("\r\n");
         if(aux[1]>46000){
+            if(bandera2){
+                LCD_Position(0,0);
+                LCD_PrintString("Su frecuencia es :");
+                bandera2=false;
+            }
+            
             if((aux[1]>aux[0])&(aux[1]>aux[2])&(aux[3]-400<aux[2])){
                 pulse++;
             }
@@ -94,11 +99,17 @@ int main(void)
                 sprintf(Buffer,"*F%d*/r*A%d*",frecuencia,frecuencia);//lo codifica en ascci
                 UART_PutString(Buffer);
                 bandera=true;
+                LCD_Position(1,0);
+                LCD_PrintNumber(frecuencia);
             }
         }else{
             if(bandera){
                 UART_PutString("*F50*/r*ANo C*");//lo codifica en ascci
+                LCD_ClearDisplay();
+                LCD_Position(0,0);
+                LCD_PrintString("Ubique el dedo");
                 bandera=false;
+                bandera2=true;
             }
         
         }
