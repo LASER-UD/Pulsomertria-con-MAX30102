@@ -32,12 +32,24 @@ set_location "\UART:BUART:tx_state_1\" macrocell 3 0 0 1
 set_location "\UART:BUART:rx_state_3\" macrocell 2 1 0 2
 set_location "\UART:BUART:tx_state_0\" macrocell 2 0 0 0
 set_location "\I2C:I2C_FF\" i2ccell -1 -1 0
-set_io "Rx_1(0)" iocell 3 0
 # Note: port 12 is the logical name for port 7
-set_io "SCL(0)" iocell 12 0
+set_io "\LCD:LCDPort(6)\" iocell 12 6
+# Note: port 12 is the logical name for port 7
+set_io "\LCD:LCDPort(5)\" iocell 12 5
+# Note: port 12 is the logical name for port 7
+set_io "\LCD:LCDPort(3)\" iocell 12 3
+# Note: port 12 is the logical name for port 7
+set_io "\LCD:LCDPort(4)\" iocell 12 4
+set_io "Rx_1(0)" iocell 3 0
+set_io "SCL(0)" iocell 2 5
 set_location "ClockBlock" clockblockcell -1 -1 0
 set_io "Tx_1(0)" iocell 3 1
 set_location "IRQRX" interrupt -1 -1 0
 set_location "\I2C:I2C_IRQ\" interrupt -1 -1 15
+set_io "SDA(0)" iocell 2 6
 # Note: port 12 is the logical name for port 7
-set_io "SDA(0)" iocell 12 1
+set_io "\LCD:LCDPort(0)\" iocell 12 0
+# Note: port 12 is the logical name for port 7
+set_io "\LCD:LCDPort(2)\" iocell 12 2
+# Note: port 12 is the logical name for port 7
+set_io "\LCD:LCDPort(1)\" iocell 12 1

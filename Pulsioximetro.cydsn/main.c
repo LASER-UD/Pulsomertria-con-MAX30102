@@ -29,7 +29,7 @@ unsigned char cont=0,pulse=0;
 unsigned char frecuencia=30;
 char Buffer[20]={};
 bool bandera=false;
-unsigned long aux[3]={0,0,0};
+unsigned long aux[4]={0,0,0,0};
 
 CY_ISR(InterrupRx){
     data=UART_GetChar();//recibe el dato del bluetooth
@@ -62,9 +62,13 @@ int main(void)
     UART_PutString("add_text(12,2,large,C,Frecuencia Cardiaca,255,26,57,)\r");
     UART_PutString("add_text_box(12,5,2,L,No C,245,240,245,A)\r");
     UART_PutString("add_gauge(10,4,4,50,100,50,F,,,10,5)\r");
-    UART_PutString("add_roll_graph(1,1,8,321.0,341.0,50,T,Oxymetria,tiempo,Oxymetria,1,0,1,0,1,1,thin,none,1,1,47,218,107)\r");
+    UART_PutString("add_roll_graph(1,0,8,462.0,471.0,50,T,Oxymetria,tiempo,Oxymetria,1,0,1,0,1,1,thin,none,1,1,47,218,107)\r");
+    UART_PutString("add_monitor(1,5,5,,1)\r");
     UART_PutString("run()\r");
     UART_PutString("*\r");
+    LCD_Start();
+    LCD_Position(0,0);
+    LCD_PrintString("Ubique su dedo");
     Max_Init(ledBrightness, sampleAverage, ledMode, sampleRate, pulseWidth, adcRange); //Configure sensor with these settings
     /* Place your initialization/startup code here (e.g. MyInst_Start()) */
 
@@ -73,12 +77,13 @@ int main(void)
         //sprintf(Buffer,"*T%d,%d*",,cont);//lo codifica en ascci
         aux[0]=aux[1];
         aux[1]=aux[2];
-        aux[2]=Max_getIR();
+        aux[2]=aux[3];
+        aux[3]=Max_getIR();
         sprintf(Buffer,"*T%lu*",aux[2]);//lo codifica en ascci
         UART_PutString(Buffer);
-        UART_PutString("\r\n");
+        //UART_PutString("\r\n");
         if(aux[1]>46000){
-            if((aux[1]+100>aux[0])&(aux[1]+100>aux[2])){
+            if((aux[1]>aux[0])&(aux[1]>aux[2])&(aux[3]-400<aux[2])){
                 pulse++;
             }
             cont=cont+1;
