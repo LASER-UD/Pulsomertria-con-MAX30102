@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\jdrd3\AppData\Local\Temp\ccVMlkBQ.s 			page 1
+ARM GAS  C:\Users\LASER_2\AppData\Local\Temp\ccEuH1vw.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\jdrd3\AppData\Local\Temp\ccVMlkBQ.s 			page 1
   28:Generated_Source\PSoC5/LCD_LCDPort.c **** *
   29:Generated_Source\PSoC5/LCD_LCDPort.c **** * \brief Writes the value to the physical port (data output register), masking
   30:Generated_Source\PSoC5/LCD_LCDPort.c **** *  and shifting the bits appropriately. 
-ARM GAS  C:\Users\jdrd3\AppData\Local\Temp\ccVMlkBQ.s 			page 2
+ARM GAS  C:\Users\LASER_2\AppData\Local\Temp\ccEuH1vw.s 			page 2
 
 
   31:Generated_Source\PSoC5/LCD_LCDPort.c **** *
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\jdrd3\AppData\Local\Temp\ccVMlkBQ.s 			page 1
   52              		.section	.text.LCD_LCDPort_SetDriveMode,"ax",%progbits
   53              		.align	2
   54              		.global	LCD_LCDPort_SetDriveMode
-ARM GAS  C:\Users\jdrd3\AppData\Local\Temp\ccVMlkBQ.s 			page 3
+ARM GAS  C:\Users\LASER_2\AppData\Local\Temp\ccEuH1vw.s 			page 3
 
 
   55              		.thumb
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\jdrd3\AppData\Local\Temp\ccVMlkBQ.s 			page 1
   76 0012 1378     		ldrb	r3, [r2]	@ zero_extendqisi2
   77 0014 03F0F103 		and	r3, r3, #241
   78 0018 0343     		orrs	r3, r3, r0
-ARM GAS  C:\Users\jdrd3\AppData\Local\Temp\ccVMlkBQ.s 			page 4
+ARM GAS  C:\Users\LASER_2\AppData\Local\Temp\ccEuH1vw.s 			page 4
 
 
   79 001a 1370     		strb	r3, [r2]
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\jdrd3\AppData\Local\Temp\ccVMlkBQ.s 			page 1
  101:Generated_Source\PSoC5/LCD_LCDPort.c **** 
  102:Generated_Source\PSoC5/LCD_LCDPort.c **** /*******************************************************************************
  103:Generated_Source\PSoC5/LCD_LCDPort.c **** * Function Name: LCD_LCDPort_Read
-ARM GAS  C:\Users\jdrd3\AppData\Local\Temp\ccVMlkBQ.s 			page 5
+ARM GAS  C:\Users\LASER_2\AppData\Local\Temp\ccEuH1vw.s 			page 5
 
 
  104:Generated_Source\PSoC5/LCD_LCDPort.c **** ****************************************************************************//**
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\jdrd3\AppData\Local\Temp\ccVMlkBQ.s 			page 1
  132:Generated_Source\PSoC5/LCD_LCDPort.c **** *
  133:Generated_Source\PSoC5/LCD_LCDPort.c **** * The data output register controls the signal applied to the physical pin in 
  134:Generated_Source\PSoC5/LCD_LCDPort.c **** * conjunction with the drive mode parameter. This is not the same as the 
-ARM GAS  C:\Users\jdrd3\AppData\Local\Temp\ccVMlkBQ.s 			page 6
+ARM GAS  C:\Users\LASER_2\AppData\Local\Temp\ccEuH1vw.s 			page 6
 
 
  135:Generated_Source\PSoC5/LCD_LCDPort.c **** * preferred LCD_LCDPort_Read() API because the 
@@ -345,28 +345,28 @@ ARM GAS  C:\Users\jdrd3\AppData\Local\Temp\ccVMlkBQ.s 			page 1
  177 0006 00000000 		.4byte	.Ldebug_abbrev0
  178 000a 04       		.byte	0x4
  179 000b 01       		.uleb128 0x1
- 180 000c 5D000000 		.4byte	.LASF20
+ 180 000c 57000000 		.4byte	.LASF20
  181 0010 0C       		.byte	0xc
- 182 0011 0D010000 		.4byte	.LASF21
- 183 0015 98010000 		.4byte	.LASF22
+ 182 0011 07010000 		.4byte	.LASF21
+ 183 0015 59010000 		.4byte	.LASF22
  184 0019 00000000 		.4byte	.Ldebug_ranges0+0
  185 001d 00000000 		.4byte	0
  186 0021 00000000 		.4byte	.Ldebug_line0
  187 0025 02       		.uleb128 0x2
  188 0026 01       		.byte	0x1
  189 0027 06       		.byte	0x6
- 190 0028 06020000 		.4byte	.LASF0
+ 190 0028 08020000 		.4byte	.LASF0
  191 002c 02       		.uleb128 0x2
  192 002d 01       		.byte	0x1
-ARM GAS  C:\Users\jdrd3\AppData\Local\Temp\ccVMlkBQ.s 			page 7
+ARM GAS  C:\Users\LASER_2\AppData\Local\Temp\ccEuH1vw.s 			page 7
 
 
  193 002e 08       		.byte	0x8
- 194 002f 4F000000 		.4byte	.LASF1
+ 194 002f 49000000 		.4byte	.LASF1
  195 0033 02       		.uleb128 0x2
  196 0034 02       		.byte	0x2
  197 0035 05       		.byte	0x5
- 198 0036 8E010000 		.4byte	.LASF2
+ 198 0036 DE010000 		.4byte	.LASF2
  199 003a 02       		.uleb128 0x2
  200 003b 02       		.byte	0x2
  201 003c 07       		.byte	0x7
@@ -374,19 +374,19 @@ ARM GAS  C:\Users\jdrd3\AppData\Local\Temp\ccVMlkBQ.s 			page 1
  203 0041 02       		.uleb128 0x2
  204 0042 04       		.byte	0x4
  205 0043 05       		.byte	0x5
- 206 0044 FD010000 		.4byte	.LASF4
+ 206 0044 FF010000 		.4byte	.LASF4
  207 0048 02       		.uleb128 0x2
  208 0049 04       		.byte	0x4
  209 004a 07       		.byte	0x7
- 210 004b FB000000 		.4byte	.LASF5
+ 210 004b F5000000 		.4byte	.LASF5
  211 004f 02       		.uleb128 0x2
  212 0050 08       		.byte	0x8
  213 0051 05       		.byte	0x5
- 214 0052 7B010000 		.4byte	.LASF6
+ 214 0052 CB010000 		.4byte	.LASF6
  215 0056 02       		.uleb128 0x2
  216 0057 08       		.byte	0x8
  217 0058 07       		.byte	0x7
- 218 0059 5F010000 		.4byte	.LASF7
+ 218 0059 AF010000 		.4byte	.LASF7
  219 005d 03       		.uleb128 0x3
  220 005e 04       		.byte	0x4
  221 005f 05       		.byte	0x5
@@ -394,9 +394,9 @@ ARM GAS  C:\Users\jdrd3\AppData\Local\Temp\ccVMlkBQ.s 			page 1
  223 0064 02       		.uleb128 0x2
  224 0065 04       		.byte	0x4
  225 0066 07       		.byte	0x7
- 226 0067 52010000 		.4byte	.LASF8
+ 226 0067 4C010000 		.4byte	.LASF8
  227 006b 04       		.uleb128 0x4
- 228 006c 49000000 		.4byte	.LASF12
+ 228 006c E8010000 		.4byte	.LASF12
  229 0070 02       		.byte	0x2
  230 0071 E401     		.2byte	0x1e4
  231 0073 2C000000 		.4byte	0x2c
@@ -407,18 +407,18 @@ ARM GAS  C:\Users\jdrd3\AppData\Local\Temp\ccVMlkBQ.s 			page 1
  236 007e 02       		.uleb128 0x2
  237 007f 08       		.byte	0x8
  238 0080 04       		.byte	0x4
- 239 0081 4B010000 		.4byte	.LASF10
+ 239 0081 45010000 		.4byte	.LASF10
  240 0085 02       		.uleb128 0x2
  241 0086 01       		.byte	0x1
  242 0087 08       		.byte	0x8
- 243 0088 89010000 		.4byte	.LASF11
+ 243 0088 D9010000 		.4byte	.LASF11
  244 008c 04       		.uleb128 0x4
- 245 008d F6000000 		.4byte	.LASF13
+ 245 008d F0000000 		.4byte	.LASF13
  246 0091 02       		.byte	0x2
  247 0092 8E02     		.2byte	0x28e
  248 0094 98000000 		.4byte	0x98
  249 0098 05       		.uleb128 0x5
-ARM GAS  C:\Users\jdrd3\AppData\Local\Temp\ccVMlkBQ.s 			page 8
+ARM GAS  C:\Users\LASER_2\AppData\Local\Temp\ccEuH1vw.s 			page 8
 
 
  250 0099 6B000000 		.4byte	0x6b
@@ -438,7 +438,7 @@ ARM GAS  C:\Users\jdrd3\AppData\Local\Temp\ccVMlkBQ.s 			page 1
  264 00b9 6B000000 		.4byte	0x6b
  265 00bd 00000000 		.4byte	.LLST0
  266 00c1 08       		.uleb128 0x8
- 267 00c2 EB000000 		.4byte	.LASF23
+ 267 00c2 E5000000 		.4byte	.LASF23
  268 00c6 01       		.byte	0x1
  269 00c7 3B       		.byte	0x3b
  270 00c8 6B000000 		.4byte	0x6b
@@ -446,7 +446,7 @@ ARM GAS  C:\Users\jdrd3\AppData\Local\Temp\ccVMlkBQ.s 			page 1
  272 00cd 53       		.byte	0x53
  273 00ce 00       		.byte	0
  274 00cf 06       		.uleb128 0x6
- 275 00d0 32010000 		.4byte	.LASF15
+ 275 00d0 2C010000 		.4byte	.LASF15
  276 00d4 01       		.byte	0x1
  277 00d5 5A       		.byte	0x5a
  278 00d6 00000000 		.4byte	.LFB1
@@ -455,14 +455,14 @@ ARM GAS  C:\Users\jdrd3\AppData\Local\Temp\ccVMlkBQ.s 			page 1
  281 00df 9C       		.byte	0x9c
  282 00e0 F4000000 		.4byte	0xf4
  283 00e4 07       		.uleb128 0x7
- 284 00e5 76010000 		.4byte	.LASF17
+ 284 00e5 C6010000 		.4byte	.LASF17
  285 00e9 01       		.byte	0x1
  286 00ea 5A       		.byte	0x5a
  287 00eb 6B000000 		.4byte	0x6b
  288 00ef 21000000 		.4byte	.LLST1
  289 00f3 00       		.byte	0
  290 00f4 09       		.uleb128 0x9
- 291 00f5 EC010000 		.4byte	.LASF18
+ 291 00f5 EE010000 		.4byte	.LASF18
  292 00f9 01       		.byte	0x1
  293 00fa 77       		.byte	0x77
  294 00fb 6B000000 		.4byte	0x6b
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\jdrd3\AppData\Local\Temp\ccVMlkBQ.s 			page 1
  304 0114 00000000 		.4byte	.LFB3
  305 0118 10000000 		.4byte	.LFE3-.LFB3
  306 011c 01       		.uleb128 0x1
-ARM GAS  C:\Users\jdrd3\AppData\Local\Temp\ccVMlkBQ.s 			page 9
+ARM GAS  C:\Users\LASER_2\AppData\Local\Temp\ccEuH1vw.s 			page 9
 
 
  307 011d 9C       		.byte	0x9c
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\jdrd3\AppData\Local\Temp\ccVMlkBQ.s 			page 1
  361 0032 49       		.uleb128 0x49
  362 0033 13       		.uleb128 0x13
  363 0034 00       		.byte	0
-ARM GAS  C:\Users\jdrd3\AppData\Local\Temp\ccVMlkBQ.s 			page 10
+ARM GAS  C:\Users\LASER_2\AppData\Local\Temp\ccEuH1vw.s 			page 10
 
 
  364 0035 00       		.byte	0
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\jdrd3\AppData\Local\Temp\ccVMlkBQ.s 			page 1
  418 006c 0B       		.uleb128 0xb
  419 006d 3B       		.uleb128 0x3b
  420 006e 0B       		.uleb128 0xb
-ARM GAS  C:\Users\jdrd3\AppData\Local\Temp\ccVMlkBQ.s 			page 11
+ARM GAS  C:\Users\LASER_2\AppData\Local\Temp\ccEuH1vw.s 			page 11
 
 
  421 006f 49       		.uleb128 0x49
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\jdrd3\AppData\Local\Temp\ccVMlkBQ.s 			page 1
  475 0030 60000000 		.4byte	.LFE1
  476 0034 0400     		.2byte	0x4
  477 0036 F3       		.byte	0xf3
-ARM GAS  C:\Users\jdrd3\AppData\Local\Temp\ccVMlkBQ.s 			page 12
+ARM GAS  C:\Users\LASER_2\AppData\Local\Temp\ccEuH1vw.s 			page 12
 
 
  478 0037 01       		.uleb128 0x1
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\jdrd3\AppData\Local\Temp\ccVMlkBQ.s 			page 1
  521      7369676E 
  521      65642069 
  521      6E7400
-ARM GAS  C:\Users\jdrd3\AppData\Local\Temp\ccVMlkBQ.s 			page 13
+ARM GAS  C:\Users\LASER_2\AppData\Local\Temp\ccEuH1vw.s 			page 13
 
 
  522              	.LASF19:
@@ -730,110 +730,110 @@ ARM GAS  C:\Users\jdrd3\AppData\Local\Temp\ccVMlkBQ.s 			page 1
  524              	.LASF9:
  525 0043 666C6F61 		.ascii	"float\000"
  525      7400
- 526              	.LASF12:
- 527 0049 75696E74 		.ascii	"uint8\000"
- 527      3800
- 528              	.LASF1:
- 529 004f 756E7369 		.ascii	"unsigned char\000"
- 529      676E6564 
- 529      20636861 
- 529      7200
- 530              	.LASF20:
- 531 005d 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 531      43313120 
- 531      352E342E 
- 531      31203230 
- 531      31363036 
- 532 0090 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
- 532      20726576 
- 532      6973696F 
- 532      6E203233 
- 532      37373135 
- 533 00c3 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
- 533      66756E63 
- 533      74696F6E 
- 533      2D736563 
- 533      74696F6E 
- 534              	.LASF23:
- 535 00eb 73746174 		.ascii	"staticBits\000"
- 535      69634269 
- 535      747300
- 536              	.LASF13:
- 537 00f6 72656738 		.ascii	"reg8\000"
- 537      00
- 538              	.LASF5:
- 539 00fb 6C6F6E67 		.ascii	"long unsigned int\000"
- 539      20756E73 
- 539      69676E65 
- 539      6420696E 
- 539      7400
- 540              	.LASF21:
- 541 010d 47656E65 		.ascii	"Generated_Source\\PSoC5\\LCD_LCDPort.c\000"
- 541      72617465 
- 541      645F536F 
- 541      75726365 
- 541      5C50536F 
- 542              	.LASF15:
- 543 0132 4C43445F 		.ascii	"LCD_LCDPort_SetDriveMode\000"
- 543      4C434450 
- 543      6F72745F 
- 543      53657444 
-ARM GAS  C:\Users\jdrd3\AppData\Local\Temp\ccVMlkBQ.s 			page 14
+ 526              	.LASF1:
+ 527 0049 756E7369 		.ascii	"unsigned char\000"
+ 527      676E6564 
+ 527      20636861 
+ 527      7200
+ 528              	.LASF20:
+ 529 0057 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 529      43313120 
+ 529      352E342E 
+ 529      31203230 
+ 529      31363036 
+ 530 008a 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 530      20726576 
+ 530      6973696F 
+ 530      6E203233 
+ 530      37373135 
+ 531 00bd 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 531      66756E63 
+ 531      74696F6E 
+ 531      2D736563 
+ 531      74696F6E 
+ 532              	.LASF23:
+ 533 00e5 73746174 		.ascii	"staticBits\000"
+ 533      69634269 
+ 533      747300
+ 534              	.LASF13:
+ 535 00f0 72656738 		.ascii	"reg8\000"
+ 535      00
+ 536              	.LASF5:
+ 537 00f5 6C6F6E67 		.ascii	"long unsigned int\000"
+ 537      20756E73 
+ 537      69676E65 
+ 537      6420696E 
+ 537      7400
+ 538              	.LASF21:
+ 539 0107 47656E65 		.ascii	"Generated_Source\\PSoC5\\LCD_LCDPort.c\000"
+ 539      72617465 
+ 539      645F536F 
+ 539      75726365 
+ 539      5C50536F 
+ 540              	.LASF15:
+ 541 012c 4C43445F 		.ascii	"LCD_LCDPort_SetDriveMode\000"
+ 541      4C434450 
+ 541      6F72745F 
+ 541      53657444 
+ 541      72697665 
+ 542              	.LASF10:
+ 543 0145 646F7562 		.ascii	"double\000"
+ARM GAS  C:\Users\LASER_2\AppData\Local\Temp\ccEuH1vw.s 			page 14
 
 
- 543      72697665 
- 544              	.LASF10:
- 545 014b 646F7562 		.ascii	"double\000"
- 545      6C6500
- 546              	.LASF8:
- 547 0152 756E7369 		.ascii	"unsigned int\000"
- 547      676E6564 
- 547      20696E74 
- 547      00
- 548              	.LASF7:
- 549 015f 6C6F6E67 		.ascii	"long long unsigned int\000"
- 549      206C6F6E 
- 549      6720756E 
- 549      7369676E 
- 549      65642069 
- 550              	.LASF17:
- 551 0176 6D6F6465 		.ascii	"mode\000"
- 551      00
- 552              	.LASF6:
- 553 017b 6C6F6E67 		.ascii	"long long int\000"
- 553      206C6F6E 
- 553      6720696E 
- 553      7400
- 554              	.LASF11:
- 555 0189 63686172 		.ascii	"char\000"
- 555      00
- 556              	.LASF2:
- 557 018e 73686F72 		.ascii	"short int\000"
- 557      7420696E 
- 557      7400
- 558              	.LASF22:
- 559 0198 433A5C55 		.ascii	"C:\\Users\\jdrd3\\Documents\\PSoC Creator\\Pulsomer"
- 559      73657273 
- 559      5C6A6472 
- 559      64335C44 
- 559      6F63756D 
- 560 01c6 74726961 		.ascii	"tria-con-MAX30102\\Pulsioximetro.cydsn\000"
- 560      2D636F6E 
- 560      2D4D4158 
- 560      33303130 
- 560      325C5075 
+ 543      6C6500
+ 544              	.LASF8:
+ 545 014c 756E7369 		.ascii	"unsigned int\000"
+ 545      676E6564 
+ 545      20696E74 
+ 545      00
+ 546              	.LASF22:
+ 547 0159 433A5C55 		.ascii	"C:\\Users\\LASER_2\\Documents\\PSoC Creator\\Pulsom"
+ 547      73657273 
+ 547      5C4C4153 
+ 547      45525F32 
+ 547      5C446F63 
+ 548 0187 65727472 		.ascii	"ertria-con-MAX30102\\Pulsioximetro.cydsn\000"
+ 548      69612D63 
+ 548      6F6E2D4D 
+ 548      41583330 
+ 548      3130325C 
+ 549              	.LASF7:
+ 550 01af 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 550      206C6F6E 
+ 550      6720756E 
+ 550      7369676E 
+ 550      65642069 
+ 551              	.LASF17:
+ 552 01c6 6D6F6465 		.ascii	"mode\000"
+ 552      00
+ 553              	.LASF6:
+ 554 01cb 6C6F6E67 		.ascii	"long long int\000"
+ 554      206C6F6E 
+ 554      6720696E 
+ 554      7400
+ 555              	.LASF11:
+ 556 01d9 63686172 		.ascii	"char\000"
+ 556      00
+ 557              	.LASF2:
+ 558 01de 73686F72 		.ascii	"short int\000"
+ 558      7420696E 
+ 558      7400
+ 559              	.LASF12:
+ 560 01e8 75696E74 		.ascii	"uint8\000"
+ 560      3800
  561              	.LASF18:
- 562 01ec 4C43445F 		.ascii	"LCD_LCDPort_Read\000"
+ 562 01ee 4C43445F 		.ascii	"LCD_LCDPort_Read\000"
  562      4C434450 
  562      6F72745F 
  562      52656164 
  562      00
  563              	.LASF4:
- 564 01fd 6C6F6E67 		.ascii	"long int\000"
+ 564 01ff 6C6F6E67 		.ascii	"long int\000"
  564      20696E74 
  564      00
  565              	.LASF0:
- 566 0206 7369676E 		.ascii	"signed char\000"
+ 566 0208 7369676E 		.ascii	"signed char\000"
  566      65642063 
  566      68617200 
  567              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

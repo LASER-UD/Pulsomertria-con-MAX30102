@@ -1,5 +1,5 @@
 -- Project:   Pulsioximetro
--- Generated: 07/12/2019 14:02:55
+-- Generated: 07/23/2019 13:53:24
 -- PSoC Creator  4.2
 
 ENTITY Pulsioximetro IS
@@ -14,7 +14,8 @@ ENTITY Pulsioximetro IS
         \LCD:LCDPort(3)_PAD\ : OUT std_ulogic;
         \LCD:LCDPort(4)_PAD\ : OUT std_ulogic;
         \LCD:LCDPort(5)_PAD\ : OUT std_ulogic;
-        \LCD:LCDPort(6)_PAD\ : OUT std_ulogic);
+        \LCD:LCDPort(6)_PAD\ : OUT std_ulogic;
+        tono(0)_PAD : OUT std_ulogic);
     ATTRIBUTE voltage_VDDABUF OF __DEFAULT__ : ENTITY IS 5e0;
     ATTRIBUTE voltage_VDDA OF __DEFAULT__ : ENTITY IS 5e0;
     ATTRIBUTE voltage_VUSB OF __DEFAULT__ : ENTITY IS 5e0;
@@ -41,10 +42,18 @@ ARCHITECTURE __DEFAULT__ OF Pulsioximetro IS
     SIGNAL Net_15 : bit;
     SIGNAL Net_20 : bit;
     SIGNAL Net_54 : bit;
+    SIGNAL Net_77 : bit;
     SIGNAL Rx_1(0)__PA : bit;
     SIGNAL SCL(0)__PA : bit;
     SIGNAL SDA(0)__PA : bit;
     SIGNAL Tx_1(0)__PA : bit;
+    SIGNAL \Control:control_1\ : bit;
+    SIGNAL \Control:control_2\ : bit;
+    SIGNAL \Control:control_3\ : bit;
+    SIGNAL \Control:control_4\ : bit;
+    SIGNAL \Control:control_5\ : bit;
+    SIGNAL \Control:control_6\ : bit;
+    SIGNAL \Control:control_7\ : bit;
     SIGNAL \I2C:Net_1109_0\ : bit;
     SIGNAL \I2C:Net_1109_1\ : bit;
     SIGNAL \I2C:Net_643_0\ : bit;
@@ -105,6 +114,7 @@ ARCHITECTURE __DEFAULT__ OF Pulsioximetro IS
     ATTRIBUTE GROUND OF __ZERO__ : SIGNAL IS true;
     SIGNAL tmpOE__SDA_net_0 : bit;
     ATTRIBUTE POWER OF tmpOE__SDA_net_0 : SIGNAL IS true;
+    SIGNAL tono(0)__PA : bit;
     SIGNAL zero : bit;
     ATTRIBUTE GROUND OF zero : SIGNAL IS true;
     SIGNAL \ClockBlock.clk_bus_glb_ff__sig\ : bit;
@@ -130,6 +140,8 @@ ARCHITECTURE __DEFAULT__ OF Pulsioximetro IS
     ATTRIBUTE Location OF \LCD:LCDPort(5)\ : LABEL IS "P12[5]";
     ATTRIBUTE lib_model OF \LCD:LCDPort(6)\ : LABEL IS "iocell11";
     ATTRIBUTE Location OF \LCD:LCDPort(6)\ : LABEL IS "P12[6]";
+    ATTRIBUTE lib_model OF tono(0) : LABEL IS "iocell12";
+    ATTRIBUTE Location OF tono(0) : LABEL IS "P2[0]";
     ATTRIBUTE lib_model OF Net_15 : LABEL IS "macrocell1";
     ATTRIBUTE lib_model OF \UART:BUART:counter_load_not\ : LABEL IS "macrocell2";
     ATTRIBUTE lib_model OF \UART:BUART:tx_status_0\ : LABEL IS "macrocell3";
@@ -143,6 +155,7 @@ ARCHITECTURE __DEFAULT__ OF Pulsioximetro IS
     ATTRIBUTE lib_model OF \UART:BUART:sTX:TxSts\ : LABEL IS "statusicell1";
     ATTRIBUTE lib_model OF \UART:BUART:sRX:RxShifter:u0\ : LABEL IS "datapathcell3";
     ATTRIBUTE lib_model OF \UART:BUART:sRX:RxSts\ : LABEL IS "statusicell2";
+    ATTRIBUTE lib_model OF \Control:Sync:ctrl_reg\ : LABEL IS "controlcell1";
     ATTRIBUTE lib_model OF \UART:BUART:txn\ : LABEL IS "macrocell9";
     ATTRIBUTE lib_model OF \UART:BUART:tx_state_1\ : LABEL IS "macrocell10";
     ATTRIBUTE lib_model OF \UART:BUART:tx_state_0\ : LABEL IS "macrocell11";
@@ -239,6 +252,24 @@ ARCHITECTURE __DEFAULT__ OF Pulsioximetro IS
             dclk_glb_ff_6 : OUT std_ulogic;
             dclk_glb_ff_7 : OUT std_ulogic);
     END COMPONENT;
+    COMPONENT controlcell
+        PORT (
+            control_0 : OUT std_ulogic;
+            control_1 : OUT std_ulogic;
+            control_2 : OUT std_ulogic;
+            control_3 : OUT std_ulogic;
+            control_4 : OUT std_ulogic;
+            control_5 : OUT std_ulogic;
+            control_6 : OUT std_ulogic;
+            control_7 : OUT std_ulogic;
+            clock : IN std_ulogic;
+            reset : IN std_ulogic;
+            clk_en : IN std_ulogic;
+            busclk : IN std_ulogic);
+    END COMPONENT;
+    ATTRIBUTE udb_clk OF controlcell : COMPONENT IS "clock";
+    ATTRIBUTE udb_clken OF controlcell : COMPONENT IS "clk_en";
+    ATTRIBUTE udb_reset OF controlcell : COMPONENT IS "reset";
     COMPONENT count7cell
         PORT (
             clock : IN std_ulogic;
@@ -1069,6 +1100,98 @@ BEGIN
             out_clock_en => '1',
             out_reset => '0');
 
+    tono:logicalport
+        GENERIC MAP(
+            drive_mode => "110",
+            ibuf_enabled => "1",
+            id => "ba444f53-4bdb-436a-9b52-a00aaeca548a",
+            init_dr_st => "0",
+            input_buffer_sel => "00",
+            input_clk_en => 0,
+            input_sync => "1",
+            input_sync_mode => "0",
+            intr_mode => "00",
+            invert_in_clock => 0,
+            invert_in_clock_en => 0,
+            invert_in_reset => 0,
+            invert_out_clock => 0,
+            invert_out_clock_en => 0,
+            invert_out_reset => 0,
+            io_voltage => "",
+            layout_mode => "CONTIGUOUS",
+            oe_conn => "0",
+            oe_reset => 0,
+            oe_sync => "0",
+            output_clk_en => 0,
+            output_clock_mode => "0",
+            output_conn => "1",
+            output_mode => "0",
+            output_reset => 0,
+            output_sync => "0",
+            ovt_hyst_trim => "0",
+            ovt_needed => "0",
+            ovt_slew_control => "00",
+            pa_in_clock => -1,
+            pa_in_clock_en => -1,
+            pa_in_reset => -1,
+            pa_out_clock => -1,
+            pa_out_clock_en => -1,
+            pa_out_reset => -1,
+            pin_aliases => "",
+            pin_mode => "O",
+            por_state => 4,
+            port_alias_group => "",
+            port_alias_required => 0,
+            sio_group_cnt => 0,
+            sio_hifreq => "00000000",
+            sio_hyst => "1",
+            sio_ibuf => "00000000",
+            sio_info => "00",
+            sio_obuf => "00000000",
+            sio_refsel => "00000000",
+            sio_vohsel => "00000000",
+            sio_vtrip => "00000000",
+            slew_rate => "0",
+            spanning => 0,
+            sw_only => 0,
+            use_annotation => "0",
+            vtrip => "10",
+            width => 1,
+            in_clk_inv => 0,
+            in_clken_inv => 0,
+            in_clken_mode => 1,
+            in_rst_inv => 0,
+            out_clk_inv => 0,
+            out_clken_inv => 0,
+            out_clken_mode => 1,
+            out_rst_inv => 0)
+        PORT MAP(
+            in_clock_en => open,
+            in_reset => open,
+            out_clock_en => open,
+            out_reset => open);
+
+    tono(0):iocell
+        GENERIC MAP(
+            in_sync_mode => 0,
+            out_sync_mode => 0,
+            oe_sync_mode => 0,
+            logicalport => "tono",
+            logicalport_pin_id => 0,
+            io_capabilities => "0000000000000000000000000000000000000000000000000000000000000101")
+        PORT MAP(
+            pa_out => tono(0)__PA,
+            oe => open,
+            pin_input => Net_77,
+            pad_out => tono(0)_PAD,
+            pad_in => tono(0)_PAD,
+            in_clock => open,
+            in_clock_en => '1',
+            in_reset => '0',
+            out_clock => open,
+            out_clock_en => '1',
+            out_reset => '0');
+
     Net_15:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0)",
@@ -1354,6 +1477,25 @@ BEGIN
         PORT MAP(
             interrupt => Net_54,
             clock => ClockBlock_BUS_CLK);
+
+    \Control:Sync:ctrl_reg\:controlcell
+        GENERIC MAP(
+            cy_ctrl_mode_0 => "00000000",
+            cy_ctrl_mode_1 => "00000000",
+            cy_ext_reset => 0,
+            cy_force_order => 1,
+            cy_init_value => "00000000",
+            clken_mode => 1)
+        PORT MAP(
+            control_7 => \Control:control_7\,
+            control_6 => \Control:control_6\,
+            control_5 => \Control:control_5\,
+            control_4 => \Control:control_4\,
+            control_3 => \Control:control_3\,
+            control_2 => \Control:control_2\,
+            control_1 => \Control:control_1\,
+            control_0 => Net_77,
+            busclk => ClockBlock_BUS_CLK);
 
     \UART:BUART:txn\:macrocell
         GENERIC MAP(

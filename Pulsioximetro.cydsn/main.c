@@ -25,10 +25,10 @@ const int pulseWidth = 411; //Options: 69, 118, 215, 411
 const int adcRange = 8192; //Options: 2048, 4096, 8192, 16384
 
 volatile char data;
-unsigned char cont=0,pulse=0;
+unsigned char cont=0,pulse=0,contpulso=0;
 unsigned char frecuencia=30;
 char Buffer[20]={};
-bool bandera=false,bandera2=true;
+bool bandera=false,bandera2=true,banderapulso=false;
 unsigned long aux[4]={0,0,0,0};
 
 CY_ISR(InterrupRx){
@@ -54,6 +54,7 @@ CY_ISR(InterrupRx){
 int main(void)
 {
     CyGlobalIntEnable; /* Enable global interrupts. */
+    Control_Write(1);
     IRQRX_StartEx(InterrupRx);
     LCD_Start();
     LCD_PrintString("Ubique el dedo");
@@ -81,7 +82,7 @@ int main(void)
         sprintf(Buffer,"*T%lu*",aux[2]);//lo codifica en ascci
         UART_PutString(Buffer);
         //UART_PutString("\r\n");
-        if(aux[1]>46000){
+        if(aux[1]>49000){
             if(bandera2){
                 LCD_Position(0,0);
                 LCD_PrintString("Su frecuencia es :");
@@ -90,6 +91,8 @@ int main(void)
             
             if((aux[1]>aux[0])&(aux[1]>aux[2])&(aux[3]-400<aux[2])){
                 pulse++;
+                banderapulso=true;
+                Control_Write(0);
             }
             cont=cont+1;
             if(cont==200){//cada 20 segundo mide la frecuencia cardiaca
@@ -113,6 +116,15 @@ int main(void)
             }
         
         }
+        if(banderapulso){
+            if(contpulso==3){
+                banderapulso=false;
+                Control_Write(1);
+                contpulso=0;
+            }else{
+            contpulso++;
+            }
+        }   
         CyDelay(50);
         /* Place your application code here. */
     }

@@ -1,6 +1,6 @@
 -- ======================================================================
 -- Pulsioximetro.ctl generated from Pulsioximetro
--- 07/12/2019 at 14:02
+-- 07/23/2019 at 13:53
 -- This file is auto generated. ANY EDITS YOU MAKE MAY BE LOST WHEN THIS FILE IS REGENERATED!!!
 -- ======================================================================
 
